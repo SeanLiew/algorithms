@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="778191e2-881b-4e1c-80f3-89de52c9f0ae" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leet/tree/TwoTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leet/sorts/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leet/sorts/InsertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leet/sorts/SelectionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leet/utils/GsonUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leet/array/MergeSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leet/array/MergeSortedArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leet/tree/TwoTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leet/tree/TwoTree.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,25 +27,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/leet/array/MergeSortedArray.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/leet/tree/TwoTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="22" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="243">
+              <caret line="66" column="8" selection-start-line="66" selection-start-column="8" selection-end-line="78" selection-end-column="65" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/leet/sorts/BubbleSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="6" column="23" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="28" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/leet/tree/TwoTree.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/leet/sorts/InsertionSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="28" column="25" lean-forward="true" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="241">
+              <caret line="36" column="32" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -57,6 +64,9 @@
     </option>
   </component>
   <component name="FindInProjectRecents">
+    <findStrings>
+      <find>[1,1,2,3,3,4,5,6,7,11,12,12,12,18,21,23,41,43,54,60,63,76,90]</find>
+    </findStrings>
     <dirStrings>
       <dir>D:\gitSpace\algorithms\src\main\java</dir>
     </dirStrings>
@@ -74,7 +84,6 @@
         <option value="$PROJECT_DIR$/src/main/java/leet/link/ListNode.java" />
         <option value="$PROJECT_DIR$/src/main/java/leet/array/MiddleNumber.java" />
         <option value="$PROJECT_DIR$/src/main/java/leet/link/NumberAdd.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/leet/strs/StrTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/leet/array/ArrayTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/leet/nums/NumbersTest.java" />
@@ -89,6 +98,12 @@
         <option value="$PROJECT_DIR$/src/main/java/leet/link/LinkedQueue.java" />
         <option value="$PROJECT_DIR$/src/main/java/leet/array/MergeSortedArray.java" />
         <option value="$PROJECT_DIR$/src/main/java/leet/tree/TwoTree.java" />
+        <option value="$PROJECT_DIR$/src/main/java/leet/sorts/BuubleSort.java" />
+        <option value="$PROJECT_DIR$/src/main/java/leet/utils/GsonUtils.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/leet/sorts/BubbleSort.java" />
+        <option value="$PROJECT_DIR$/src/main/java/leet/sorts/SelectionSort.java" />
+        <option value="$PROJECT_DIR$/src/main/java/leet/sorts/InsertionSort.java" />
       </list>
     </option>
   </component>
@@ -100,10 +115,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1910" />
-    <option name="y" value="-10" />
-    <option name="width" value="1939" />
-    <option name="height" value="1049" />
+    <option name="x" value="1895" />
+    <option name="y" value="-25" />
+    <option name="width" value="1954" />
+    <option name="height" value="1064" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -115,6 +130,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -156,13 +172,30 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="leet" type="462c0819:PsiDirectoryNode" />
+              <item name="sorts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="leet" type="462c0819:PsiDirectoryNode" />
+              <item name="sums" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="leet" type="462c0819:PsiDirectoryNode" />
               <item name="tree" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -173,10 +206,15 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="leet.utils" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -190,13 +228,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TwoTree.test">
-    <configuration name="TestNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leet.link.TestNode" />
+  <component name="RunManager" selected="Application.InsertionSort">
+    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leet.sorts.BubbleSort" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leet.link.*" />
+          <option name="PATTERN" value="leet.sorts.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -204,39 +242,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BinarySum.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leet.sorts.InsertionSort" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leet.sums.*" />
+          <option name="PATTERN" value="leet.sorts.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="leet.sums" />
-      <option name="MAIN_CLASS_NAME" value="leet.sums.BinarySum" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeSortedArray.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leet.sorts.SelectionSort" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leet.array.*" />
+          <option name="PATTERN" value="leet.sorts.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="leet.array" />
-      <option name="MAIN_CLASS_NAME" value="leet.array.MergeSortedArray" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumbersTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StairsTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
@@ -245,14 +277,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="leet.nums" />
-      <option name="MAIN_CLASS_NAME" value="leet.nums.NumbersTest" />
+      <option name="MAIN_CLASS_NAME" value="leet.nums.StairsTest" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoTree.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TwoTree.isSymmetric" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
@@ -262,26 +294,26 @@
       </extension>
       <option name="PACKAGE_NAME" value="leet.tree" />
       <option name="MAIN_CLASS_NAME" value="leet.tree.TwoTree" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="METHOD_NAME" value="isSymmetric" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TestNode" />
-      <item itemvalue="JUnit.MergeSortedArray.test" />
-      <item itemvalue="JUnit.NumbersTest.test" />
-      <item itemvalue="JUnit.BinarySum.test" />
-      <item itemvalue="JUnit.TwoTree.test" />
+      <item itemvalue="JUnit.StairsTest.test" />
+      <item itemvalue="JUnit.TwoTree.isSymmetric" />
+      <item itemvalue="Application.BubbleSort" />
+      <item itemvalue="Application.SelectionSort" />
+      <item itemvalue="Application.InsertionSort" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TwoTree.test" />
-        <item itemvalue="JUnit.MergeSortedArray.test" />
-        <item itemvalue="Application.TestNode" />
-        <item itemvalue="JUnit.BinarySum.test" />
-        <item itemvalue="JUnit.NumbersTest.test" />
+        <item itemvalue="Application.InsertionSort" />
+        <item itemvalue="Application.BubbleSort" />
+        <item itemvalue="Application.SelectionSort" />
+        <item itemvalue="JUnit.TwoTree.isSymmetric" />
+        <item itemvalue="JUnit.StairsTest.test" />
       </list>
     </recent_temporary>
   </component>
@@ -306,50 +338,52 @@
       <workItem from="1578618407360" duration="5323000" />
       <workItem from="1590201726000" duration="126000" />
       <workItem from="1590201860690" duration="7817000" />
-      <workItem from="1590995408927" duration="2767000" />
+      <workItem from="1590995408927" duration="4722000" />
+      <workItem from="1592360023871" duration="2513000" />
+      <workItem from="1592548588748" duration="6855000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MergeSortedArray_test - 2020.06.01 at 15h 23m 47s.xml">
-      <configuration name="MergeSortedArray.test" configurationId="JUnit" />
+    <history-entry file="StairsTest_test - 2020.06.01 at 16h 17m 00s.xml">
+      <configuration name="StairsTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MergeSortedArray_test - 2020.06.01 at 15h 24m 43s.xml">
-      <configuration name="MergeSortedArray.test" configurationId="JUnit" />
+    <history-entry file="StairsTest_test - 2020.06.17 at 10h 13m 53s.xml">
+      <configuration name="StairsTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MergeSortedArray_test - 2020.06.01 at 15h 24m 56s.xml">
-      <configuration name="MergeSortedArray.test" configurationId="JUnit" />
+    <history-entry file="TwoTree_isSymmetric - 2020.06.17 at 10h 56m 59s.xml">
+      <configuration name="TwoTree.isSymmetric" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MergeSortedArray_test - 2020.06.01 at 15h 25m 09s.xml">
-      <configuration name="MergeSortedArray.test" configurationId="JUnit" />
+    <history-entry file="TwoTree_isSymmetric - 2020.06.17 at 10h 57m 10s.xml">
+      <configuration name="TwoTree.isSymmetric" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MergeSortedArray_test - 2020.06.01 at 15h 26m 16s.xml">
-      <configuration name="MergeSortedArray.test" configurationId="JUnit" />
+    <history-entry file="TwoTree_isSymmetric - 2020.06.17 at 10h 57m 20s.xml">
+      <configuration name="TwoTree.isSymmetric" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MergeSortedArray_test - 2020.06.01 at 15h 26m 56s.xml">
-      <configuration name="MergeSortedArray.test" configurationId="JUnit" />
+    <history-entry file="TwoTree_isSymmetric - 2020.06.17 at 10h 57m 31s.xml">
+      <configuration name="TwoTree.isSymmetric" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MergeSortedArray_test - 2020.06.01 at 15h 27m 22s.xml">
-      <configuration name="MergeSortedArray.test" configurationId="JUnit" />
+    <history-entry file="TwoTree_isSymmetric - 2020.06.17 at 10h 58m 14s.xml">
+      <configuration name="TwoTree.isSymmetric" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MergeSortedArray_test - 2020.06.01 at 15h 27m 45s.xml">
-      <configuration name="MergeSortedArray.test" configurationId="JUnit" />
+    <history-entry file="TwoTree_isSymmetric - 2020.06.17 at 10h 58m 30s.xml">
+      <configuration name="TwoTree.isSymmetric" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MergeSortedArray_test - 2020.06.01 at 15h 28m 02s.xml">
-      <configuration name="MergeSortedArray.test" configurationId="JUnit" />
+    <history-entry file="TwoTree_isSymmetric - 2020.06.17 at 10h 58m 36s.xml">
+      <configuration name="TwoTree.isSymmetric" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MergeSortedArray_test - 2020.06.01 at 15h 28m 11s.xml">
-      <configuration name="MergeSortedArray.test" configurationId="JUnit" />
+    <history-entry file="TwoTree_isSymmetric - 2020.06.17 at 10h 59m 16s.xml">
+      <configuration name="TwoTree.isSymmetric" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104073000" />
+    <option name="totallyTimeSpent" value="115396000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1913" y="-7" width="1563" height="845" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19601329" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2013289" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -358,17 +392,17 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2847125" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39130434" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28330997" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.15007013" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32959327" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.2454418" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.2633229" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.38148668" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32810867" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32678822" />
       <window_info anchor="bottom" id="Duplication Code Results" order="13" />
       <window_info anchor="bottom" id="风险组件扫描" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -419,6 +453,46 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -488,6 +562,12 @@
           <line>25</line>
           <properties />
           <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leet/sorts/InsertionSort.java</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -565,41 +645,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="35" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/leet/nums/Sqrt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="15" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/leet/nums/StairsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/leet/link/RemoveDuplicates.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="395">
           <caret line="39" column="19" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/leet/strs/StrTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="16" column="18" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -664,9 +713,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/leet/nums/Sqrt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-360">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="15" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/leet/array/MergeSortedArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
+        <state relative-caret-position="200">
           <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="22" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -674,13 +730,65 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/leet/nums/StairsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/leet/tree/TwoTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="28" column="25" lean-forward="true" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+        <state relative-caret-position="243">
+          <caret line="66" column="8" selection-start-line="66" selection-start-column="8" selection-end-line="78" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/leet/utils/GsonUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="22" column="28" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="32" column="25" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/leet/strs/StrTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="61" column="55" selection-start-line="61" selection-start-column="55" selection-end-line="61" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/leet/sorts/SelectionSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="20" column="46" lean-forward="true" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/leet/sorts/BubbleSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="6" column="23" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="28" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/leet/sorts/InsertionSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="36" column="32" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -724,7 +832,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.6</last-edited>
+          <last-edited>1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -741,7 +849,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

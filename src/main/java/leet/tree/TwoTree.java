@@ -27,6 +27,21 @@ public class TwoTree {
 
         System.out.println(isSameTree(treeNode1,treeNode2 ));
     }
+    @Test
+    public void isSymmetric(){
+        TreeNode treeNode1 = new TreeNode(1);
+        TreeNode treeNode2 = new TreeNode(2);
+        TreeNode treeNode3 = new TreeNode(2);
+        treeNode1.left = treeNode2;
+        treeNode1.right = treeNode3;
+        TreeNode treeNode4 = new TreeNode(4);
+        treeNode2.left = treeNode4;
+        TreeNode treeNode5 = new TreeNode(4);
+        treeNode2.right = treeNode5;
+
+
+        System.out.println(isSymmetric(treeNode1));
+    }
 
     public boolean isSameTree(TreeNode p, TreeNode q) {
         if (p == null && q == null){
@@ -47,4 +62,20 @@ public class TwoTree {
       TreeNode right;
       TreeNode(int x) { val = x; }
    }
+
+    public boolean isSymmetric(TreeNode root) {
+        if (root == null){
+            return true;
+        }
+        if (root.right == null && root.left == null){
+            return true;
+        }
+        if (root.right == null || root.left == null){
+            return false;
+        }
+        if (root.right.val != root.left.val){
+            return false;
+        }
+        return isSymmetric(root.right) && isSymmetric(root.left);
+    }
 }
