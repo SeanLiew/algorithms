@@ -6,7 +6,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 /**
- * desc:
+ * desc: 对称二叉树
  * author: liuxiaozheng
  * time: 2020/6/19  17:31
  **/

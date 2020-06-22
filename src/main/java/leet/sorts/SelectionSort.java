@@ -3,7 +3,7 @@ package leet.sorts;
 import leet.utils.GsonUtils;
 
 /**
- * desc:
+ * desc: 选择排序
  * author: liuxiaozheng
  * time: 2020/6/19  15:17
  **/

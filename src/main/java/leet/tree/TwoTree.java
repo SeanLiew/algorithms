@@ -4,7 +4,7 @@ package leet.tree;
 import org.junit.Test;
 
 /**
- * desc:
+ * desc: 相同二叉树
  * author: liuxiaozheng
  * time: 2020/6/1  15:41
  **/
