@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="778191e2-881b-4e1c-80f3-89de52c9f0ae" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leet/array/RepeatNum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leet/tree/LevelOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leet/tree/MaxDepth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leet/array/MaxPrice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leet/tree/ArrayToTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leet/sorts/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leet/sorts/BubbleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leet/sorts/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leet/sorts/InsertionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leet/sorts/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leet/sorts/SelectionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leet/tree/SymmetricTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leet/tree/SymmetricTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leet/tree/TwoTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leet/tree/TwoTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leet/array/MaxSubArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leet/array/MaxSubArray.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -28,26 +23,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/leet/tree/LevelOrder.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/leet/array/MaxSubArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="47" column="36" selection-start-line="47" selection-start-column="36" selection-end-line="47" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="120">
+              <caret line="12" column="10" lean-forward="true" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/leet/tree/ArrayToTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="47" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/leet/tree/SymmetricTree.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/leet/tree/TreeNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-920">
-              <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="140">
+              <caret line="7" column="21" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -90,7 +88,6 @@
         <option value="$PROJECT_DIR$/src/main/java/leet/strs/StrTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/leet/array/ArrayTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/leet/nums/NumbersTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/leet/array/MaxSubArray.java" />
         <option value="$PROJECT_DIR$/src/main/java/leet/strs/WordsTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/leet/array/PlusOne.java" />
         <option value="$PROJECT_DIR$/src/main/java/leet/sums/BinarySum.java" />
@@ -114,6 +111,9 @@
         <option value="$PROJECT_DIR$/src/main/java/leet/sorts/InsertionSort.java" />
         <option value="$PROJECT_DIR$/src/main/java/leet/sorts/SelectionSort.java" />
         <option value="$PROJECT_DIR$/src/main/java/leet/tree/LevelOrder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/leet/array/MaxSubArray.java" />
+        <option value="$PROJECT_DIR$/src/main/java/leet/array/MaxPrice.java" />
+        <option value="$PROJECT_DIR$/src/main/java/leet/tree/ArrayToTree.java" />
       </list>
     </option>
   </component>
@@ -265,26 +265,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LevelOrder.test">
+  <component name="RunManager" selected="JUnit.MaxPrice.test">
     <configuration name="LevelOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leet.tree.LevelOrder" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="leet.tree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RepeatNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leet.array.RepeatNum" />
-      <module name="algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leet.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -308,52 +295,67 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxDepth.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MaxPrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leet.tree.*" />
+          <option name="PATTERN" value="leet.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="leet.tree" />
-      <option name="MAIN_CLASS_NAME" value="leet.tree.MaxDepth" />
+      <option name="PACKAGE_NAME" value="leet.array" />
+      <option name="MAIN_CLASS_NAME" value="leet.array.MaxPrice" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaxPrice.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leet.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="leet.array" />
+      <option name="MAIN_CLASS_NAME" value="leet.array.MaxPrice" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SymmetricTree.isSymmetric" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MaxSubArray.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leet.tree.*" />
+          <option name="PATTERN" value="leet.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="leet.tree" />
-      <option name="MAIN_CLASS_NAME" value="leet.tree.SymmetricTree" />
-      <option name="METHOD_NAME" value="isSymmetric" />
+      <option name="PACKAGE_NAME" value="leet.array" />
+      <option name="MAIN_CLASS_NAME" value="leet.array.MaxSubArray" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.SymmetricTree.isSymmetric" />
-      <item itemvalue="Application.RepeatNum" />
-      <item itemvalue="JUnit.MaxDepth.test" />
       <item itemvalue="Application.LevelOrder" />
       <item itemvalue="JUnit.LevelOrder.test" />
+      <item itemvalue="JUnit.MaxSubArray.test" />
+      <item itemvalue="JUnit.MaxPrice" />
+      <item itemvalue="JUnit.MaxPrice.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MaxPrice.test" />
+        <item itemvalue="JUnit.MaxPrice" />
+        <item itemvalue="JUnit.MaxSubArray.test" />
         <item itemvalue="JUnit.LevelOrder.test" />
         <item itemvalue="Application.LevelOrder" />
-        <item itemvalue="JUnit.MaxDepth.test" />
-        <item itemvalue="Application.RepeatNum" />
-        <item itemvalue="JUnit.SymmetricTree.isSymmetric" />
       </list>
     </recent_temporary>
   </component>
@@ -381,26 +383,11 @@
       <workItem from="1590995408927" duration="4722000" />
       <workItem from="1592360023871" duration="2513000" />
       <workItem from="1592548588748" duration="11792000" />
-      <workItem from="1592789689731" duration="6697000" />
+      <workItem from="1592789689731" duration="9184000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MaxDepth_test - 2020.06.22 at 15h 22m 30s.xml">
-      <configuration name="MaxDepth.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LevelOrder_test - 2020.06.22 at 15h 54m 21s.xml">
-      <configuration name="LevelOrder.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LevelOrder_test - 2020.06.22 at 15h 54m 48s.xml">
-      <configuration name="LevelOrder.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LevelOrder_test - 2020.06.22 at 15h 56m 07s.xml">
-      <configuration name="LevelOrder.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LevelOrder_test - 2020.06.22 at 15h 58m 13s.xml">
-      <configuration name="LevelOrder.test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="LevelOrder_test - 2020.06.22 at 15h 58m 34s.xml">
       <configuration name="LevelOrder.test" configurationId="JUnit" />
     </history-entry>
@@ -416,12 +403,28 @@
     <history-entry file="LevelOrder_test - 2020.06.22 at 16h 01m 04s.xml">
       <configuration name="LevelOrder.test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="MaxSubArray_test - 2020.06.22 at 16h 08m 54s.xml">
+      <configuration name="MaxSubArray.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MaxPrice - 2020.06.22 at 16h 11m 10s.xml">
+      <configuration name="MaxPrice" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MaxPrice_test - 2020.06.22 at 16h 11m 21s.xml">
+      <configuration name="MaxPrice.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MaxPrice_test - 2020.06.22 at 16h 11m 47s.xml">
+      <configuration name="MaxPrice.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MaxPrice_test - 2020.06.22 at 16h 12m 12s.xml">
+      <configuration name="MaxPrice.test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127030000" />
+    <option name="totallyTimeSpent" value="129517000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1913" y="-7" width="1563" height="845" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2039867" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -440,7 +443,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.30715287" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.22019635" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.41374475" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32678822" />
       <window_info anchor="bottom" id="Duplication Code Results" order="13" />
@@ -703,13 +706,6 @@
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/concurrent/SynchronousQueue.java" />
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/concurrent/ThreadPoolExecutor.java" />
     <entry file="file://$USER_HOME$/Documents/ppt/线程池简介/ExeTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/leet/array/MaxSubArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="17" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/leet/nums/NumbersTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-51">
@@ -871,24 +867,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/leet/tree/TreeNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/Collection.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-646">
           <caret line="206" column="13" selection-start-line="206" selection-start-column="13" selection-end-line="206" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/leet/tree/MaxDepth.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-302">
-          <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="45" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -902,13 +884,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/leet/array/MaxPrice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="28" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/leet/tree/MaxDepth.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="45" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/leet/tree/LevelOrder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
+        <state relative-caret-position="760">
           <caret line="47" column="36" selection-start-line="47" selection-start-column="36" selection-end-line="47" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/leet/array/MaxSubArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="12" column="10" lean-forward="true" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/leet/tree/TreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/leet/tree/ArrayToTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="47" />
         </state>
       </provider>
     </entry>

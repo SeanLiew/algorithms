@@ -3,7 +3,7 @@ package leet.array;
 import org.junit.Test;
 
 /**
- * desc:
+ * desc: 最大连续子数组
  * author: liuxiaozheng
  * time: 2020/1/7  17:06
  **/
