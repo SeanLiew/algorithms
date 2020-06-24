@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="778191e2-881b-4e1c-80f3-89de52c9f0ae" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leet/sorts/QuickSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leet/tree/BalanceTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leet/tree/MinDepth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leet/tree/PathSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leet/list/Fibonacci.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -27,8 +24,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/leet/sorts/QuickSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+            <state relative-caret-position="390">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
               <folding>
                 <element signature="e#414#415#0" expanded="true" />
                 <element signature="e#440#441#0" expanded="true" />
@@ -37,29 +34,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/leet/tree/MinDepth.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1184">
-              <caret line="60" column="71" lean-forward="true" selection-start-line="60" selection-start-column="71" selection-end-line="60" selection-end-column="71" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/leet/tree/BalanceTree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="46" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/leet/tree/PathSum.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/leet/list/Fibonacci.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="444">
-              <caret line="63" column="36" lean-forward="true" selection-start-line="63" selection-start-column="36" selection-end-line="63" selection-end-column="36" />
+            <state relative-caret-position="209">
+              <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -68,13 +47,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/leet/tree/SymmetricTree.java">
+        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-776">
-              <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="280">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -149,6 +125,7 @@
         <option value="$PROJECT_DIR$/src/main/java/leet/tree/BalanceTree.java" />
         <option value="$PROJECT_DIR$/src/main/java/leet/tree/MinDepth.java" />
         <option value="$PROJECT_DIR$/src/main/java/leet/tree/PathSum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/leet/list/Fibonacci.java" />
       </list>
     </option>
   </component>
@@ -160,8 +137,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1910" />
-    <option name="y" value="-10" />
+    <option name="x" value="2051" />
+    <option name="y" value="153" />
     <option name="width" value="1939" />
     <option name="height" value="1049" />
   </component>
@@ -215,16 +192,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="leet" type="462c0819:PsiDirectoryNode" />
-              <item name="array" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="leet" type="462c0819:PsiDirectoryNode" />
-              <item name="link" type="462c0819:PsiDirectoryNode" />
+              <item name="list" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="algorithms" type="b2602c69:ProjectViewProjectNode" />
@@ -234,24 +202,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="leet" type="462c0819:PsiDirectoryNode" />
               <item name="nums" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="leet" type="462c0819:PsiDirectoryNode" />
-              <item name="sorts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="leet" type="462c0819:PsiDirectoryNode" />
-              <item name="sums" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="algorithms" type="b2602c69:ProjectViewProjectNode" />
@@ -300,22 +250,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PathSum.test">
+  <component name="RunManager" selected="JUnit.Fibonacci.test">
     <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leet.sorts.MergeSort" />
-      <module name="algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leet.sorts.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ShellSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leet.sorts.ShellSort" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
@@ -337,6 +274,22 @@
       </extension>
       <option name="PACKAGE_NAME" value="leet.tree" />
       <option name="MAIN_CLASS_NAME" value="leet.tree.BalanceTree" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Fibonacci.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leet.list.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="leet.list" />
+      <option name="MAIN_CLASS_NAME" value="leet.list.Fibonacci" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -376,19 +329,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ShellSort" />
       <item itemvalue="Application.MergeSort" />
       <item itemvalue="JUnit.BalanceTree.test" />
       <item itemvalue="JUnit.MinDepth.test" />
       <item itemvalue="JUnit.PathSum.test" />
+      <item itemvalue="JUnit.Fibonacci.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Fibonacci.test" />
         <item itemvalue="JUnit.PathSum.test" />
         <item itemvalue="JUnit.MinDepth.test" />
         <item itemvalue="JUnit.BalanceTree.test" />
         <item itemvalue="Application.MergeSort" />
-        <item itemvalue="Application.ShellSort" />
       </list>
     </recent_temporary>
   </component>
@@ -418,44 +371,44 @@
       <workItem from="1592548588748" duration="11792000" />
       <workItem from="1592789689731" duration="9212000" />
       <workItem from="1592879169709" duration="3989000" />
-      <workItem from="1592901186790" duration="13312000" />
+      <workItem from="1592901186790" duration="15809000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MinDepth_test - 2020.06.24 at 11h 22m 08s.xml">
-      <configuration name="MinDepth.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MinDepth_test - 2020.06.24 at 11h 23m 06s.xml">
-      <configuration name="MinDepth.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MinDepth_test - 2020.06.24 at 11h 39m 03s.xml">
-      <configuration name="MinDepth.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PathSum_test - 2020.06.24 at 14h 01m 23s.xml">
+    <history-entry file="PathSum_test - 2020.06.24 at 14h 21m 59s.xml">
       <configuration name="PathSum.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PathSum_test - 2020.06.24 at 14h 02m 13s.xml">
+    <history-entry file="PathSum_test - 2020.06.24 at 14h 22m 11s.xml">
       <configuration name="PathSum.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PathSum_test - 2020.06.24 at 14h 03m 51s.xml">
-      <configuration name="PathSum.test" configurationId="JUnit" />
+    <history-entry file="Fibonacci_test - 2020.06.24 at 15h 26m 59s.xml">
+      <configuration name="Fibonacci.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PathSum_test - 2020.06.24 at 14h 06m 29s.xml">
-      <configuration name="PathSum.test" configurationId="JUnit" />
+    <history-entry file="Fibonacci_test - 2020.06.24 at 15h 27m 08s.xml">
+      <configuration name="Fibonacci.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PathSum_test - 2020.06.24 at 14h 07m 14s.xml">
-      <configuration name="PathSum.test" configurationId="JUnit" />
+    <history-entry file="Fibonacci_test - 2020.06.24 at 15h 27m 40s.xml">
+      <configuration name="Fibonacci.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PathSum_test - 2020.06.24 at 14h 09m 03s.xml">
-      <configuration name="PathSum.test" configurationId="JUnit" />
+    <history-entry file="Fibonacci_test - 2020.06.24 at 15h 27m 53s.xml">
+      <configuration name="Fibonacci.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PathSum_test - 2020.06.24 at 14h 10m 42s.xml">
-      <configuration name="PathSum.test" configurationId="JUnit" />
+    <history-entry file="Fibonacci_test - 2020.06.24 at 15h 28m 27s.xml">
+      <configuration name="Fibonacci.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Fibonacci_test - 2020.06.24 at 15h 29m 01s.xml">
+      <configuration name="Fibonacci.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Fibonacci_test - 2020.06.24 at 15h 29m 23s.xml">
+      <configuration name="Fibonacci.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Fibonacci_test - 2020.06.24 at 15h 30m 09s.xml">
+      <configuration name="Fibonacci.test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="146846000" />
+    <option name="totallyTimeSpent" value="149343000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1913" y="-7" width="1563" height="845" extended-state="6" />
@@ -470,15 +423,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2230014" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.23562412" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2230014" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.2678822" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.30715287" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3043478" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.21428572" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32678822" />
       <window_info anchor="bottom" id="Duplication Code Results" order="13" />
@@ -683,23 +636,21 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/leet/tree/PathSum.java</url>
-          <line>45</line>
+          <line>29</line>
           <properties />
-          <option name="timeStamp" value="26" />
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leet/list/Fibonacci.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="28" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/nio/file/Path.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/Stack.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/leet/array/MiddleNumber.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2200">
@@ -740,13 +691,6 @@
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/concurrent/SynchronousQueue.java" />
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/concurrent/ThreadPoolExecutor.java" />
     <entry file="file://$USER_HOME$/Documents/ppt/线程池简介/ExeTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/leet/nums/NumbersTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-51">
-          <caret line="11" column="19" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/leet/link/NumberAdd.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-399">
@@ -960,17 +904,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/leet/sorts/QuickSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
-          <folding>
-            <element signature="e#414#415#0" expanded="true" />
-            <element signature="e#440#441#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/leet/tree/LevelOrder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -978,13 +911,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/leet/tree/ArrayToTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -1002,9 +928,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/leet/tree/PathSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="29" column="8" lean-forward="true" selection-start-line="29" selection-start-column="8" selection-end-line="36" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/leet/nums/NumbersTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="19" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/leet/tree/ArrayToTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="16" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/leet/sorts/QuickSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#414#415#0" expanded="true" />
+            <element signature="e#440#441#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/leet/tree/SymmetricTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-776">
+        <state relative-caret-position="-160">
           <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1012,10 +970,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/leet/tree/PathSum.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="63" column="36" lean-forward="true" selection-start-line="63" selection-start-column="36" selection-end-line="63" selection-end-column="36" />
+        <state relative-caret-position="280">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/leet/list/Fibonacci.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
