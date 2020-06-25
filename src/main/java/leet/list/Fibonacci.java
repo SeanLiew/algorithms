@@ -16,7 +16,8 @@ public class Fibonacci {
     @Test
     public void test(){
 
-        System.out.println(GsonUtils.toJson(generate(100)));
+        System.out.println(GsonUtils.toJson(generate(3)));
+        System.out.println(GsonUtils.toJson(getRow(3)));
     }
     public List<List<Integer>> generate(int numRows) {
         List<List<Integer>> result = new ArrayList<>();
@@ -43,6 +44,29 @@ public class Fibonacci {
             tempList.add(preNum);
             result.add(tempList);
             lastList = tempList;
+        }
+        return result;
+    }
+
+    public List<Integer> getRow(int rowIndex) {
+        List<Integer> result = Arrays.asList(1);
+        if (rowIndex == 0){
+            return result;
+        }
+        result = Arrays.asList(1, 1);
+        if (rowIndex == 1){
+            return result;
+        }
+        for (int i = 0 ; i < rowIndex - 1; i++){
+            int preNum = 0;
+            List<Integer> tempList = new ArrayList<>();
+            for (Integer num : result){
+                int newNum = num + preNum;
+                preNum = num;
+                tempList.add(newNum);
+            }
+            tempList.add(preNum);
+            result = tempList;
         }
         return result;
     }
