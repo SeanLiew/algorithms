@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="778191e2-881b-4e1c-80f3-89de52c9f0ae" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/leet/sorts/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leet/sorts/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leet/strs/PalindromeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,11 +21,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/leet/sorts/QuickSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+            <state relative-caret-position="180">
+              <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/leet/strs/WordsTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-81">
+              <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="36" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/leet/strs/StrTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="111">
+              <caret line="71" column="25" selection-start-line="71" selection-start-column="17" selection-end-line="71" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/leet/strs/PalindromeTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="112">
+              <caret line="15" column="40" lean-forward="true" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -104,6 +138,7 @@
         <option value="$PROJECT_DIR$/src/main/java/leet/list/Fibonacci.java" />
         <option value="$PROJECT_DIR$/src/main/java/leet/array/MaxProfit.java" />
         <option value="$PROJECT_DIR$/src/main/java/leet/sorts/QuickSort.java" />
+        <option value="$PROJECT_DIR$/src/main/java/leet/strs/PalindromeTest.java" />
       </list>
     </option>
   </component>
@@ -115,10 +150,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1895" />
-    <option name="y" value="-25" />
-    <option name="width" value="1954" />
-    <option name="height" value="1064" />
+    <option name="x" value="2419" />
+    <option name="y" value="115" />
+    <option name="width" value="1955" />
+    <option name="height" value="1065" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -264,7 +299,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.QuickSort">
+  <component name="RunManager" selected="JUnit.PalindromeTest.test">
     <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leet.sorts.QuickSort" />
       <module name="algorithms" />
@@ -310,32 +345,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinDepth.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PalindromeTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leet.tree.*" />
+          <option name="PATTERN" value="leet.strs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="leet.tree" />
-      <option name="MAIN_CLASS_NAME" value="leet.tree.MinDepth" />
+      <option name="PACKAGE_NAME" value="leet.strs" />
+      <option name="MAIN_CLASS_NAME" value="leet.strs.PalindromeTest" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PathSum.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WordsTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leet.tree.*" />
+          <option name="PATTERN" value="leet.strs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="leet.tree" />
-      <option name="MAIN_CLASS_NAME" value="leet.tree.PathSum" />
+      <option name="PACKAGE_NAME" value="leet.strs" />
+      <option name="MAIN_CLASS_NAME" value="leet.strs.WordsTest" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -343,19 +378,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.MinDepth.test" />
-      <item itemvalue="JUnit.PathSum.test" />
+      <item itemvalue="Application.QuickSort" />
       <item itemvalue="JUnit.Fibonacci.test" />
       <item itemvalue="JUnit.MaxProfit.test" />
-      <item itemvalue="Application.QuickSort" />
+      <item itemvalue="JUnit.WordsTest.test" />
+      <item itemvalue="JUnit.PalindromeTest.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PalindromeTest.test" />
+        <item itemvalue="JUnit.WordsTest.test" />
         <item itemvalue="Application.QuickSort" />
         <item itemvalue="JUnit.MaxProfit.test" />
         <item itemvalue="JUnit.Fibonacci.test" />
-        <item itemvalue="JUnit.PathSum.test" />
-        <item itemvalue="JUnit.MinDepth.test" />
       </list>
     </recent_temporary>
   </component>
@@ -385,23 +420,12 @@
       <workItem from="1592548588748" duration="11792000" />
       <workItem from="1592789689731" duration="9212000" />
       <workItem from="1592879169709" duration="3989000" />
-      <workItem from="1592901186790" duration="29570000" />
+      <workItem from="1592901186790" duration="29704000" />
+      <workItem from="1593569637395" duration="5058000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Fibonacci_test - 2020.06.24 at 15h 34m 51s.xml">
-      <configuration name="Fibonacci.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Fibonacci_test - 2020.06.25 at 17h 43m 19s.xml">
-      <configuration name="Fibonacci.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Fibonacci_test - 2020.06.25 at 17h 43m 29s.xml">
-      <configuration name="Fibonacci.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Fibonacci_test - 2020.06.25 at 17h 44m 11s.xml">
-      <configuration name="Fibonacci.test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Fibonacci_test - 2020.06.25 at 17h 44m 48s.xml">
       <configuration name="Fibonacci.test" configurationId="JUnit" />
     </history-entry>
@@ -420,15 +444,27 @@
     <history-entry file="MaxProfit_test - 2020.06.30 at 11h 03m 39s.xml">
       <configuration name="MaxProfit.test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="WordsTest_test - 2020.07.01 at 10h 59m 21s.xml">
+      <configuration name="WordsTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PalindromeTest_test - 2020.07.01 at 16h 41m 42s.xml">
+      <configuration name="PalindromeTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PalindromeTest_test - 2020.07.01 at 16h 41m 55s.xml">
+      <configuration name="PalindromeTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PalindromeTest_test - 2020.07.01 at 17h 12m 39s.xml">
+      <configuration name="PalindromeTest.test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="163104000" />
+    <option name="totallyTimeSpent" value="168296000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1913" y="-7" width="1563" height="845" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20930232" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21196014" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -437,15 +473,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2230014" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.2678822" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.17391305" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.16830294" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.30715287" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.079943895" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.37447405" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32678822" />
       <window_info anchor="bottom" id="Duplication Code Results" order="13" />
@@ -660,37 +696,16 @@
           <properties />
           <option name="timeStamp" value="28" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leet/strs/PalindromeTest.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/leet/array/MiddleNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2200">
-          <caret line="117" column="8" selection-start-line="117" selection-start-column="8" selection-end-line="128" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/leet/strs/WordsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="35" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/leet/array/PlusOne.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="34" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/lang/String.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/leet/link/RemoveDuplicates.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -763,16 +778,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
           <caret line="32" column="25" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/leet/strs/StrTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="61" column="55" selection-start-line="61" selection-start-column="55" selection-end-line="61" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1002,8 +1007,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/leet/sorts/QuickSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+        <state relative-caret-position="180">
+          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/leet/strs/WordsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-81">
+          <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="36" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/Stack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="97" column="26" selection-start-line="97" selection-start-column="26" selection-end-line="97" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/leet/strs/StrTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="71" column="25" selection-start-line="71" selection-start-column="17" selection-end-line="71" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/leet/strs/PalindromeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="15" column="40" lean-forward="true" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
