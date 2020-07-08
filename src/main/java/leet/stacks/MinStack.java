@@ -3,7 +3,7 @@ package leet.stacks;
 import java.util.Stack;
 
 /**
- * desc:
+ * desc: 最小的栈
  * author: liuxiaozheng
  * time: 2020/7/7  16:02
  **/

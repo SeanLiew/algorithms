@@ -6,7 +6,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * desc:
+ * desc: 重复链表
  * author: liuxiaozheng
  * time: 2020/7/7  14:35
  **/
