@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="778191e2-881b-4e1c-80f3-89de52c9f0ae" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leet/array/SumOfTwo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/leet/nums/Excel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/leet/array/MajorityElement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -25,32 +24,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/leet/link/IntersectionNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="980">
-              <caret line="49" column="32" selection-start-line="41" selection-start-column="8" selection-end-line="66" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/leet/link/CycleNode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="39" column="8" lean-forward="true" selection-start-line="39" selection-start-column="8" selection-end-line="47" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/leet/array/SumOfTwo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="16" selection-end-column="5" />
+            <state relative-caret-position="120">
+              <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -59,19 +34,25 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/leet/nums/Excel.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/leet/array/MajorityElement.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="20" />
+            <state relative-caret-position="280">
+              <caret line="14" column="18" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class">
+        <entry file="file://$PROJECT_DIR$/src/main/java/leet/array/ArrayTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="49" selection-start-line="49" selection-end-line="49" />
+            <state relative-caret-position="80">
+              <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="18" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -107,7 +88,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/leet/exe/ValidateTask.java" />
         <option value="$PROJECT_DIR$/src/main/java/leet/exe/DefaultThreadFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/leet/exe/ExeService.java" />
         <option value="$PROJECT_DIR$/src/main/java/leet/link/ListNode.java" />
@@ -158,6 +138,7 @@
         <option value="$PROJECT_DIR$/src/main/java/leet/link/IntersectionNode.java" />
         <option value="$PROJECT_DIR$/src/main/java/leet/array/SumOfTwo.java" />
         <option value="$PROJECT_DIR$/src/main/java/leet/nums/Excel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/leet/array/MajorityElement.java" />
       </list>
     </option>
   </component>
@@ -169,10 +150,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2191" />
-    <option name="y" value="-14" />
-    <option name="width" value="1958" />
-    <option name="height" value="1068" />
+    <option name="x" value="1900" />
+    <option name="y" value="-20" />
+    <option name="width" value="1949" />
+    <option name="height" value="1059" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -235,7 +216,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="leet" type="462c0819:PsiDirectoryNode" />
-              <item name="nums" type="462c0819:PsiDirectoryNode" />
+              <item name="link" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="algorithms" type="b2602c69:ProjectViewProjectNode" />
@@ -244,7 +225,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="leet" type="462c0819:PsiDirectoryNode" />
-              <item name="stacks" type="462c0819:PsiDirectoryNode" />
+              <item name="nums" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="algorithms" type="b2602c69:ProjectViewProjectNode" />
@@ -291,20 +272,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Excel.test">
-    <configuration name="MinStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leet.stacks.MinStack" />
-      <module name="algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leet.stacks.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.MajorityElement.test">
     <configuration name="Reader4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leet.strs.Reader4" />
       <module name="algorithms" />
@@ -350,6 +318,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MajorityElement.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leet.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="leet.array" />
+      <option name="MAIN_CLASS_NAME" value="leet.array.MajorityElement" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SumOfTwo.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithms" />
       <extension name="coverage">
@@ -367,19 +351,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MinStack" />
       <item itemvalue="Application.Reader4" />
       <item itemvalue="JUnit.IntersectionNode.test" />
       <item itemvalue="JUnit.SumOfTwo.test" />
       <item itemvalue="JUnit.Excel.test" />
+      <item itemvalue="JUnit.MajorityElement.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MajorityElement.test" />
         <item itemvalue="JUnit.Excel.test" />
         <item itemvalue="JUnit.SumOfTwo.test" />
         <item itemvalue="JUnit.IntersectionNode.test" />
         <item itemvalue="Application.Reader4" />
-        <item itemvalue="Application.MinStack" />
       </list>
     </recent_temporary>
   </component>
@@ -412,32 +396,11 @@
       <workItem from="1592901186790" duration="29704000" />
       <workItem from="1593569637395" duration="6874000" />
       <workItem from="1593999340128" duration="1469000" />
-      <workItem from="1594085882516" duration="33295000" />
+      <workItem from="1594085882516" duration="34928000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Excel_test - 2020.07.08 at 18h 47m 22s.xml">
-      <configuration name="Excel.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Excel_test - 2020.07.08 at 18h 47m 36s.xml">
-      <configuration name="Excel.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Excel_test - 2020.07.08 at 19h 51m 21s.xml">
-      <configuration name="Excel.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Excel_test - 2020.07.08 at 19h 51m 29s.xml">
-      <configuration name="Excel.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Excel_test - 2020.07.08 at 19h 51m 36s.xml">
-      <configuration name="Excel.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Excel_test - 2020.07.08 at 19h 51m 48s.xml">
-      <configuration name="Excel.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Excel_test - 2020.07.08 at 19h 52m 04s.xml">
-      <configuration name="Excel.test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Excel_test - 2020.07.08 at 19h 52m 10s.xml">
       <configuration name="Excel.test" configurationId="JUnit" />
     </history-entry>
@@ -447,9 +410,30 @@
     <history-entry file="Excel_test - 2020.07.08 at 19h 53m 12s.xml">
       <configuration name="Excel.test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Excel_test - 2020.07.09 at 09h 41m 29s.xml">
+      <configuration name="Excel.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MajorityElement_test - 2020.07.09 at 14h 29m 15s.xml">
+      <configuration name="MajorityElement.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MajorityElement_test - 2020.07.09 at 14h 29m 54s.xml">
+      <configuration name="MajorityElement.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MajorityElement_test - 2020.07.09 at 14h 30m 02s.xml">
+      <configuration name="MajorityElement.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MajorityElement_test - 2020.07.09 at 14h 30m 40s.xml">
+      <configuration name="MajorityElement.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MajorityElement_test - 2020.07.09 at 14h 30m 49s.xml">
+      <configuration name="MajorityElement.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MajorityElement_test - 2020.07.09 at 14h 31m 06s.xml">
+      <configuration name="MajorityElement.test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="204876000" />
+    <option name="totallyTimeSpent" value="206509000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1913" y="-7" width="1563" height="845" extended-state="6" />
@@ -464,7 +448,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.17391305" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.22159888" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.20617111" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -472,7 +456,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.5539972" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.43197757" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3548387" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32678822" />
       <window_info anchor="bottom" id="Duplication Code Results" order="13" />
@@ -741,21 +725,16 @@
           <properties />
           <option name="timeStamp" value="45" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leet/array/MajorityElement.java</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/leet/tree/AsyncService.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/leet/array/ArrayTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1637">
-          <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/leet/tree/TwoTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -1091,20 +1070,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/leet/link/IntersectionNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="980">
-          <caret line="49" column="32" selection-start-line="41" selection-start-column="8" selection-end-line="66" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/leet/link/CycleNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="720">
-          <caret line="39" column="8" lean-forward="true" selection-start-line="39" selection-start-column="8" selection-end-line="47" selection-end-column="9" />
+          <caret line="39" column="8" selection-start-line="39" selection-start-column="8" selection-end-line="47" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1118,16 +1087,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/leet/array/SumOfTwo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="16" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
@@ -1138,7 +1097,47 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/leet/nums/Excel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="199">
-          <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="20" />
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/leet/array/SumOfTwo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-200">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="16" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/leet/link/IntersectionNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/leet/array/ArrayTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="18" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/leet/array/MajorityElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
