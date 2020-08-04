@@ -1,4 +1,4 @@
-package leet.nums;
+package leet.excels;
 
 import org.junit.Test;
 
@@ -30,7 +30,6 @@ public class Excel {
                 str = (char)(65 + n - 1);
                 sBuilder.insert(0, str);
                 return sBuilder.toString();
-
             }
         }
     }

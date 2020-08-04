@@ -15,7 +15,7 @@ public class MinStack {
         stack_min = new Stack<>();
     }
 
-    public void push(int x) {
+    public void push(Integer x) {
         stack.push(x);
         if (stack_min.isEmpty() || x <= stack_min.peek()){
             stack_min.push(x);
