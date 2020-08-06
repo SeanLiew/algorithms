@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="778191e2-881b-4e1c-80f3-89de52c9f0ae" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leet/nums/Excel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leet/excels/Excel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leet/stacks/MinStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leet/stacks/MinStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leet/excels/Excel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leet/excels/Excel.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -26,7 +24,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/leet/stacks/MinStack.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="383">
-              <caret line="62" column="23" lean-forward="true" selection-start-line="62" selection-start-column="23" selection-end-line="62" selection-end-column="23" />
+              <caret line="62" column="23" selection-start-line="62" selection-start-column="23" selection-end-line="62" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -34,8 +32,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/leet/excels/Excel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="31" column="43" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="43" />
+            <state relative-caret-position="243">
+              <caret line="43" column="8" selection-start-line="43" selection-start-column="8" selection-end-line="55" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -134,9 +132,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1898" />
-    <option name="width" value="1942" />
-    <option name="height" value="1039" />
+    <option name="x" value="1911" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -182,15 +181,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="leet" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="leet" type="462c0819:PsiDirectoryNode" />
-              <item name="excels" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -228,7 +218,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Excel.test">
+  <component name="RunManager" selected="JUnit.Excel.test2">
     <configuration name="MinStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leet.stacks.MinStack" />
       <module name="algorithms" />
@@ -271,6 +261,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Excel.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leet.excels.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="leet.excels" />
+      <option name="MAIN_CLASS_NAME" value="leet.excels.Excel" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MajorityElement.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithms" />
       <extension name="coverage">
@@ -287,36 +293,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumOfTwo.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leet.array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="leet.array" />
-      <option name="MAIN_CLASS_NAME" value="leet.array.SumOfTwo" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.TwoSum" />
-      <item itemvalue="JUnit.SumOfTwo.test" />
       <item itemvalue="JUnit.Excel.test" />
       <item itemvalue="JUnit.MajorityElement.test" />
       <item itemvalue="Application.MinStack" />
+      <item itemvalue="JUnit.Excel.test2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Excel.test2" />
         <item itemvalue="JUnit.Excel.test" />
         <item itemvalue="Application.MinStack" />
         <item itemvalue="Application.TwoSum" />
         <item itemvalue="JUnit.MajorityElement.test" />
-        <item itemvalue="JUnit.SumOfTwo.test" />
       </list>
     </recent_temporary>
   </component>
@@ -351,50 +341,49 @@
       <workItem from="1593999340128" duration="1469000" />
       <workItem from="1594085882516" duration="41791000" />
       <workItem from="1595594013119" duration="1726000" />
-      <workItem from="1596442021773" duration="1411000" />
+      <workItem from="1596442021773" duration="7253000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Excel_test - 2020.07.09 at 09h 41m 29s.xml">
-      <configuration name="Excel.test" configurationId="JUnit" />
+    <history-entry file="Excel_test2 - 2020.08.04 at 17h 30m 39s.xml">
+      <configuration name="Excel.test2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MajorityElement_test - 2020.07.09 at 14h 29m 15s.xml">
-      <configuration name="MajorityElement.test" configurationId="JUnit" />
+    <history-entry file="Excel_test2 - 2020.08.04 at 17h 31m 07s.xml">
+      <configuration name="Excel.test2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MajorityElement_test - 2020.07.09 at 14h 29m 54s.xml">
-      <configuration name="MajorityElement.test" configurationId="JUnit" />
+    <history-entry file="Excel_test2 - 2020.08.04 at 17h 33m 51s.xml">
+      <configuration name="Excel.test2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MajorityElement_test - 2020.07.09 at 14h 30m 02s.xml">
-      <configuration name="MajorityElement.test" configurationId="JUnit" />
+    <history-entry file="Excel_test2 - 2020.08.04 at 17h 35m 23s.xml">
+      <configuration name="Excel.test2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MajorityElement_test - 2020.07.09 at 14h 30m 40s.xml">
-      <configuration name="MajorityElement.test" configurationId="JUnit" />
+    <history-entry file="Excel_test2 - 2020.08.04 at 17h 35m 34s.xml">
+      <configuration name="Excel.test2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MajorityElement_test - 2020.07.09 at 14h 30m 49s.xml">
-      <configuration name="MajorityElement.test" configurationId="JUnit" />
+    <history-entry file="Excel_test2 - 2020.08.04 at 17h 36m 39s.xml">
+      <configuration name="Excel.test2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MajorityElement_test - 2020.07.09 at 14h 31m 06s.xml">
-      <configuration name="MajorityElement.test" configurationId="JUnit" />
+    <history-entry file="Excel_test2 - 2020.08.04 at 17h 36m 51s.xml">
+      <configuration name="Excel.test2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MajorityElement_test - 2020.07.09 at 14h 31m 46s.xml">
-      <configuration name="MajorityElement.test" configurationId="JUnit" />
+    <history-entry file="Excel_test2 - 2020.08.04 at 17h 37m 17s.xml">
+      <configuration name="Excel.test2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MajorityElement_test - 2020.07.09 at 14h 32m 22s.xml">
-      <configuration name="MajorityElement.test" configurationId="JUnit" />
+    <history-entry file="Excel_test2 - 2020.08.04 at 17h 37m 27s.xml">
+      <configuration name="Excel.test2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Excel_test - 2020.08.03 at 16h 53m 25s.xml">
-      <configuration name="Excel.test" configurationId="JUnit" />
+    <history-entry file="Excel_test2 - 2020.08.04 at 17h 37m 36s.xml">
+      <configuration name="Excel.test2" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="216509000" />
+    <option name="totallyTimeSpent" value="222351000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1913" y="-7" width="1563" height="845" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22524917" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.22524917" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -403,15 +392,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.18092567" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.17251052" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.29312763" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3015428" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.5539972" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.21879382" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.18092567" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.047685836" />
       <window_info anchor="bottom" id="Duplication Code Results" order="13" />
@@ -429,7 +418,7 @@
       <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.32956812" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21993355" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22524917" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -438,17 +427,17 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.11921459" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.2622721" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2286115" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3015428" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.47124824" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.5539972" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.5021038" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.18092567" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32678822" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.047685836" />
       <window_info anchor="bottom" id="Duplication Code Results" order="13" />
       <window_info anchor="bottom" id="风险组件扫描" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -461,6 +450,7 @@
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Maven Projects" order="9" />
+      <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.32956812" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -686,6 +676,12 @@
           <line>25</line>
           <properties />
           <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leet/excels/Excel.java</url>
+          <line>43</line>
+          <properties />
+          <option name="timeStamp" value="48" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -1099,14 +1095,14 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/leet/stacks/MinStack.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="383">
-          <caret line="62" column="23" lean-forward="true" selection-start-line="62" selection-start-column="23" selection-end-line="62" selection-end-column="23" />
+          <caret line="62" column="23" selection-start-line="62" selection-start-column="23" selection-end-line="62" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/leet/excels/Excel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="31" column="43" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="43" />
+        <state relative-caret-position="243">
+          <caret line="43" column="8" selection-start-line="43" selection-start-column="8" selection-end-line="55" selection-end-column="22" />
         </state>
       </provider>
     </entry>
