@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="778191e2-881b-4e1c-80f3-89de52c9f0ae" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/leet/tree/OrderTraverse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/leet/nums/Rotate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leet/nums/Rotate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leet/link/TestNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leet/link/TestNode.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -21,11 +22,66 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/leet/nums/Rotate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="536">
-              <caret line="33" column="12" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
+            <state relative-caret-position="546">
+              <caret line="37" selection-start-line="37" selection-end-line="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/leet/sorts/QuickSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/leet/link/IntersectionNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-312">
+              <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/leet/link/TestNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="438">
+              <caret line="46" column="7" lean-forward="true" selection-start-line="46" selection-start-column="7" selection-end-line="48" selection-end-column="9" />
+              <folding>
+                <element signature="e#1021#1022#0" expanded="true" />
+                <element signature="e#1063#1064#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/leet/tree/OrderTraverse.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="163">
+              <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/leet/sorts/MergeSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="600">
+              <caret line="26" column="44" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -65,7 +121,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/leet/strs/StrTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/leet/array/ArrayTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/leet/nums/NumbersTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/leet/strs/WordsTest.java" />
@@ -103,7 +158,6 @@
         <option value="$PROJECT_DIR$/src/main/java/leet/sorts/QuickSort.java" />
         <option value="$PROJECT_DIR$/src/main/java/leet/strs/PalindromeTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/leet/array/SingleNumber.java" />
-        <option value="$PROJECT_DIR$/src/main/java/leet/link/TestNode.java" />
         <option value="$PROJECT_DIR$/src/main/java/leet/link/CycleNode.java" />
         <option value="$PROJECT_DIR$/src/main/java/leet/strs/Reader4.java" />
         <option value="$PROJECT_DIR$/src/main/java/leet/link/IntersectionNode.java" />
@@ -116,6 +170,8 @@
         <option value="$PROJECT_DIR$/src/main/java/leet/excels/Excel.java" />
         <option value="$PROJECT_DIR$/src/main/java/leet/nums/TrailingZeroes.java" />
         <option value="$PROJECT_DIR$/src/main/java/leet/nums/Rotate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/leet/tree/OrderTraverse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/leet/link/TestNode.java" />
       </list>
     </option>
   </component>
@@ -127,10 +183,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1907" />
-    <option name="y" value="-13" />
-    <option name="width" value="1942" />
-    <option name="height" value="1052" />
+    <option name="x" value="1911" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -182,7 +238,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="leet" type="462c0819:PsiDirectoryNode" />
-              <item name="excels" type="462c0819:PsiDirectoryNode" />
+              <item name="link" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="algorithms" type="b2602c69:ProjectViewProjectNode" />
@@ -191,7 +247,16 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="leet" type="462c0819:PsiDirectoryNode" />
-              <item name="nums" type="462c0819:PsiDirectoryNode" />
+              <item name="strs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="leet" type="462c0819:PsiDirectoryNode" />
+              <item name="tree" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -231,13 +296,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Rotate.test">
-    <configuration name="MinStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leet.stacks.MinStack" />
+  <component name="RunManager" selected="JUnit.OrderTraverse">
+    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leet.sorts.QuickSort" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leet.stacks.*" />
+          <option name="PATTERN" value="leet.sorts.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -245,33 +310,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Excel.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leet.link.TestNode" />
       <module name="algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leet.excels.*" />
+          <option name="PATTERN" value="leet.link.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="leet.excels" />
-      <option name="MAIN_CLASS_NAME" value="leet.excels.Excel" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderTraverse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leet.tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="leet.tree" />
+      <option name="MAIN_CLASS_NAME" value="leet.tree.OrderTraverse" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderTraverse.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leet.tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="leet.tree" />
+      <option name="MAIN_CLASS_NAME" value="leet.tree.OrderTraverse" />
       <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Excel.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leet.excels.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="leet.excels" />
-      <option name="MAIN_CLASS_NAME" value="leet.excels.Excel" />
-      <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -293,36 +370,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TrailingZeroes.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algorithms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leet.nums.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="leet.nums" />
-      <option name="MAIN_CLASS_NAME" value="leet.nums.TrailingZeroes" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.MinStack" />
-      <item itemvalue="JUnit.Excel.test" />
-      <item itemvalue="JUnit.Excel.test2" />
-      <item itemvalue="JUnit.TrailingZeroes.test" />
+      <item itemvalue="Application.QuickSort" />
       <item itemvalue="JUnit.Rotate.test" />
+      <item itemvalue="Application.TestNode" />
+      <item itemvalue="JUnit.OrderTraverse.test" />
+      <item itemvalue="JUnit.OrderTraverse" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.OrderTraverse" />
+        <item itemvalue="JUnit.OrderTraverse.test" />
+        <item itemvalue="Application.TestNode" />
+        <item itemvalue="Application.QuickSort" />
         <item itemvalue="JUnit.Rotate.test" />
-        <item itemvalue="JUnit.TrailingZeroes.test" />
-        <item itemvalue="JUnit.Excel.test2" />
-        <item itemvalue="JUnit.Excel.test" />
-        <item itemvalue="Application.MinStack" />
       </list>
     </recent_temporary>
   </component>
@@ -359,32 +420,19 @@
       <workItem from="1595594013119" duration="1726000" />
       <workItem from="1596442021773" duration="7253000" />
       <workItem from="1596678272722" duration="7145000" />
-      <workItem from="1597134660149" duration="1261000" />
+      <workItem from="1597134660149" duration="2039000" />
+      <workItem from="1597196488079" duration="1195000" />
+      <workItem from="1598006967244" duration="728000" />
+      <workItem from="1598235321106" duration="1000" />
+      <workItem from="1613616319356" duration="602000" />
+      <workItem from="1613799882393" duration="1861000" />
+      <workItem from="1614672089961" duration="1919000" />
+      <workItem from="1614740919625" duration="599000" />
+      <workItem from="1614765512293" duration="4055000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TrailingZeroes_test - 2020.08.06 at 10h 11m 43s.xml">
-      <configuration name="TrailingZeroes.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TrailingZeroes_test - 2020.08.06 at 10h 11m 58s.xml">
-      <configuration name="TrailingZeroes.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TrailingZeroes_test - 2020.08.06 at 10h 13m 29s.xml">
-      <configuration name="TrailingZeroes.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TrailingZeroes_test - 2020.08.06 at 10h 15m 31s.xml">
-      <configuration name="TrailingZeroes.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TrailingZeroes_test - 2020.08.06 at 14h 21m 48s.xml">
-      <configuration name="TrailingZeroes.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TrailingZeroes_test - 2020.08.07 at 09h 12m 47s.xml">
-      <configuration name="TrailingZeroes.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TrailingZeroes_test - 2020.08.07 at 09h 12m 55s.xml">
-      <configuration name="TrailingZeroes.test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TrailingZeroes_test - 2020.08.07 at 09h 16m 08s.xml">
       <configuration name="TrailingZeroes.test" configurationId="JUnit" />
     </history-entry>
@@ -394,15 +442,36 @@
     <history-entry file="Rotate_test - 2020.08.07 at 10h 26m 49s.xml">
       <configuration name="Rotate.test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Rotate_test - 2020.08.11 at 17h 46m 35s.xml">
+      <configuration name="Rotate.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Rotate_test - 2020.08.11 at 17h 46m 56s.xml">
+      <configuration name="Rotate.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OrderTraverse_test - 2021.03.03 at 18h 39m 09s.xml">
+      <configuration name="OrderTraverse.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OrderTraverse_test - 2021.03.03 at 18h 40m 45s.xml">
+      <configuration name="OrderTraverse.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OrderTraverse_test - 2021.03.03 at 18h 40m 49s.xml">
+      <configuration name="OrderTraverse.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OrderTraverse_test - 2021.03.03 at 18h 41m 04s.xml">
+      <configuration name="OrderTraverse.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OrderTraverse - 2021.03.03 at 18h 42m 25s.xml">
+      <configuration name="OrderTraverse" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="230757000" />
+    <option name="totallyTimeSpent" value="242495000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1913" y="-7" width="1563" height="845" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22790697" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2551495" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -411,15 +480,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.19214587" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3015428" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2454418" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.24263674" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.5539972" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.093969144" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.5245442" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.047685836" />
       <window_info anchor="bottom" id="Duplication Code Results" order="13" />
@@ -437,7 +506,7 @@
       <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.32956812" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22524917" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2551495" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -446,15 +515,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2286115" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3015428" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2454418" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.24263674" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.5539972" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.18092567" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.5245442" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.047685836" />
       <window_info anchor="bottom" id="Duplication Code Results" order="13" />
@@ -577,12 +646,6 @@
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/leet/link/TestNode.java</url>
-          <line>27</line>
-          <properties />
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/leet/array/MergeSortedArray.java</url>
           <line>24</line>
           <properties />
@@ -702,6 +765,12 @@
           <properties />
           <option name="timeStamp" value="48" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leet/link/TestNode.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -711,37 +780,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/leet/sorts/InsertionSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/Arrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="3439" column="37" selection-start-line="3439" selection-start-column="26" selection-end-line="3439" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/leet/tree/LevelOrder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="42" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/leet/tree/MinDepth.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1184">
-          <caret line="60" column="71" lean-forward="true" selection-start-line="60" selection-start-column="71" selection-end-line="60" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/leet/tree/BalanceTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -753,13 +791,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="29" column="8" lean-forward="true" selection-start-line="29" selection-start-column="8" selection-end-line="36" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/leet/tree/ArrayToTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="16" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -815,13 +846,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/leet/sorts/QuickSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/leet/strs/WordsTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -861,31 +885,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="403">
           <caret line="26" column="8" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="30" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/leet/link/ListNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/leet/link/TestNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="623">
-          <caret line="58" column="4" selection-start-line="58" selection-start-column="4" selection-end-line="64" selection-end-column="5" />
-          <folding>
-            <element signature="e#1499#1500#0" expanded="true" />
-            <element signature="e#1541#1542#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/leet/link/NumberAdd.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="30" column="8" lean-forward="true" selection-start-line="30" selection-start-column="8" selection-end-line="33" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -938,23 +937,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/leet/link/LinkedQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-287">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/leet/link/CycleNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="39" column="8" selection-start-line="39" selection-start-column="8" selection-end-line="47" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/leet/array/PlusOne.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -966,16 +948,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
           <caret line="49" selection-start-line="49" selection-end-line="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/leet/link/IntersectionNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1047,16 +1019,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/leet/sorts/MergeSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="26" column="44" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/leet/stacks/Cache.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/leet/stacks/MinStack.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1110,12 +1072,116 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/leet/nums/Rotate.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/leet/sorts/MergeSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="536">
-          <caret line="33" column="12" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
+        <state relative-caret-position="600">
+          <caret line="26" column="44" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/leet/link/LinkedQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-437">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/leet/sorts/QuickSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/leet/link/ListNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/leet/link/NumberAdd.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3304">
+          <caret line="30" column="8" lean-forward="true" selection-start-line="30" selection-start-column="8" selection-end-line="33" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/leet/link/RemoveDuplicates.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-454">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/leet/link/CycleNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="45" column="36" selection-start-line="45" selection-start-column="36" selection-end-line="45" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/leet/nums/Rotate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/leet/link/IntersectionNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-312">
+          <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/leet/tree/ArrayToTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/leet/tree/MaxDepth.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="28" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/leet/tree/TreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/leet/tree/OrderTraverse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/leet/link/TestNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="46" column="7" lean-forward="true" selection-start-line="46" selection-start-column="7" selection-end-line="48" selection-end-column="9" />
+          <folding>
+            <element signature="e#1021#1022#0" expanded="true" />
+            <element signature="e#1063#1064#0" expanded="true" />
           </folding>
         </state>
       </provider>

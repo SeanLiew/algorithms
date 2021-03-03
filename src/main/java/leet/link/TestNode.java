@@ -24,36 +24,21 @@ public class TestNode {
 
     }
 
-    public static LinkNode reverseNode(LinkNode node){
-        if (node == null){
-            return null;
+    public static LinkNode reverseNode(LinkNode head){
+
+        LinkNode pre = null, cur = head, next = null;
+
+        while(cur != null){
+            next = cur.next;
+
+            cur.next = pre;
+
+            pre = cur;
+
+            cur = next;
         }
 
-        LinkNode first = null;
-        LinkNode prev = null;
-
-        boolean setFirst = false;
-        while(true){
-            LinkNode nextNode = node.next;
-            if (nextNode == null){
-                break;
-            }
-            node.next = nextNode.next;
-            nextNode.next = node;
-            if (prev == null){
-                prev = node;
-            } else {
-                prev.next = nextNode;
-            }
-//            prev = node;
-            node = node.next;
-
-            if (!setFirst){
-                first = nextNode;
-                setFirst = true;
-            }
-        }
-        return first;
+        return pre;
     }
 
     static class LinkNode{
@@ -62,6 +47,37 @@ public class TestNode {
         LinkNode(int value){
             this.value = value;
         }
+    }
+
+    ListNode reverseKGroup(ListNode head, int k) {
+        if (head == null) return null;
+        // 区间 [a, b) 包含 k 个待反转元素
+        ListNode a, b;
+        a = b = head;
+        for (int i = 0; i < k; i++) {
+            // 不足 k 个，不需要反转，base case
+            if (b == null) return head;
+            b = b.next;
+        }
+        // 反转前 k 个元素
+        ListNode newHead = reverse(a, b);
+        // 递归反转后续链表并连接起来
+        a.next = reverseKGroup(b, k);
+        return newHead;
+    }
+
+    private ListNode reverse(ListNode a, ListNode b) {
+        ListNode pre, cur, nxt;
+        pre = null; cur = a; nxt = a;
+        // while 终止的条件改一下就行了
+        while (cur != b) {
+            nxt = cur.next;
+            cur.next = pre;
+            pre = cur;
+            cur = nxt;
+        }
+        // 返回反转后的头结点
+        return pre;
     }
 }
 
