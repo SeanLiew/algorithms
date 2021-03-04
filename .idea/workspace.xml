@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="778191e2-881b-4e1c-80f3-89de52c9f0ae" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/leet/tree/OrderTraverse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/leet/link/TestNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leet/link/TestNode.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -46,7 +44,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/leet/link/IntersectionNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-312">
+            <state relative-caret-position="25">
               <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -58,12 +56,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/leet/link/TestNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="438">
-              <caret line="46" column="7" lean-forward="true" selection-start-line="46" selection-start-column="7" selection-end-line="48" selection-end-column="9" />
-              <folding>
-                <element signature="e#1021#1022#0" expanded="true" />
-                <element signature="e#1063#1064#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="66">
+              <caret line="68" column="25" selection-start-line="68" selection-start-column="17" selection-end-line="68" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/leet/link/ListNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -296,7 +299,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.OrderTraverse">
+  <component name="RunManager" selected="Application.TestNode">
     <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leet.sorts.QuickSort" />
       <module name="algorithms" />
@@ -379,9 +382,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestNode" />
         <item itemvalue="JUnit.OrderTraverse" />
         <item itemvalue="JUnit.OrderTraverse.test" />
-        <item itemvalue="Application.TestNode" />
         <item itemvalue="Application.QuickSort" />
         <item itemvalue="JUnit.Rotate.test" />
       </list>
@@ -428,7 +431,7 @@
       <workItem from="1613799882393" duration="1861000" />
       <workItem from="1614672089961" duration="1919000" />
       <workItem from="1614740919625" duration="599000" />
-      <workItem from="1614765512293" duration="4055000" />
+      <workItem from="1614765512293" duration="8726000" />
     </task>
     <servers />
   </component>
@@ -465,7 +468,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="242495000" />
+    <option name="totallyTimeSpent" value="247166000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1913" y="-7" width="1563" height="845" extended-state="6" />
@@ -480,15 +483,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2454418" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.24263674" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2454418" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4403927" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.5539972" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.5245442" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.093969144" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.047685836" />
       <window_info anchor="bottom" id="Duplication Code Results" order="13" />
@@ -523,7 +526,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.5539972" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.5245442" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.093969144" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.047685836" />
       <window_info anchor="bottom" id="Duplication Code Results" order="13" />
@@ -767,9 +770,21 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/leet/link/TestNode.java</url>
-          <line>28</line>
+          <line>32</line>
           <properties />
           <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leet/link/TestNode.java</url>
+          <line>58</line>
+          <properties />
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/leet/link/TestNode.java</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="54" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -1096,13 +1111,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/leet/link/ListNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/leet/link/NumberAdd.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3304">
@@ -1137,16 +1145,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/leet/link/IntersectionNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-312">
-          <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/leet/tree/ArrayToTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
@@ -1175,14 +1173,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/leet/link/IntersectionNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/leet/link/ListNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/leet/link/TestNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="46" column="7" lean-forward="true" selection-start-line="46" selection-start-column="7" selection-end-line="48" selection-end-column="9" />
-          <folding>
-            <element signature="e#1021#1022#0" expanded="true" />
-            <element signature="e#1063#1064#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="66">
+          <caret line="68" column="25" selection-start-line="68" selection-start-column="17" selection-end-line="68" selection-end-column="25" />
         </state>
       </provider>
     </entry>
