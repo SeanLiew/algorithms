@@ -1,7 +1,5 @@
 package leet.strs;
 
-import org.junit.Test;
-
 /**
  * desc:
  * author: liuxiaozheng
@@ -9,16 +7,13 @@ import org.junit.Test;
  **/
 public class Palindrome {
 
-
-    @Test
-    public void test(){
+    public static void main(String[] args) {
         System.out.println(longestPalindrome("a"));
         System.out.println(longestPalindrome("aa"));
         System.out.println(longestPalindrome("abac"));
         System.out.println(longestPalindrome("adbdac"));
         System.out.println(longestPalindrome("abba"));
         System.out.println(longestPalindrome("cbba"));
-
     }
 
 
