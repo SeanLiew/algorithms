@@ -3,6 +3,8 @@ package leet.array;
 import com.alibaba.fastjson.JSON;
 import org.junit.Test;
 
+import java.util.concurrent.ArrayBlockingQueue;
+
 /**
  * desc:
  * author: liuxiaozheng
