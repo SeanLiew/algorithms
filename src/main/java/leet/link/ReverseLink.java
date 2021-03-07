@@ -18,8 +18,7 @@ public class ReverseLink {
 //        System.out.println(JSON.toJSON(result));
 //        ListNode result = reverse(first, third);
 //        System.out.println(JSON.toJSON(result));
-        int[] ints = reversePrint(first);
-        System.out.println(JSON.toJSON(ints));
+        reverseBetween(first, 2, 3);
 
     }
 
@@ -94,6 +93,31 @@ public class ReverseLink {
 
         }
         return pre;
+    }
+
+
+    public static ListNode reverseBetween(ListNode head, int m, int n) {
+
+        if (m == n){
+            return head;
+        }
+
+        ListNode m1 = head;
+        for (int i=0; i<m; i++){
+            m1 = m1.next;
+        }
+
+        ListNode n1 = head;
+        for (int i=0; i<n+1; i++){
+            n1 = n1.next;
+        }
+        ListNode mid = reverse(m1, n1);
+
+
+        return mid;
+
+
+
     }
 
 }
