@@ -102,19 +102,24 @@ public class ReverseLink {
             return head;
         }
 
-        ListNode m1 = head;
-        for (int i=0; i<m; i++){
-            m1 = m1.next;
+        ListNode pre = new ListNode(-1);
+        pre.next = head;
+
+        ListNode cur = head;
+        for (int i=0; i<m-1; i++){
+            cur = cur.next;
         }
 
-        ListNode n1 = head;
-        for (int i=0; i<n+1; i++){
-            n1 = n1.next;
+        ListNode next = null;
+        for (int i=m; i<n; i++){
+            next = cur.next;
+            cur.next = pre;
+            pre = cur;
+            cur = next;
         }
-        ListNode mid = reverse(m1, n1);
 
 
-        return mid;
+        return pre;
 
 
 

@@ -10,9 +10,8 @@ import org.junit.Test;
 public class StairsTest {
     @Test
     public void test(){
-        //1234
-        int result = climbStairs(5);
-        System.out.println(result);
+        System.out.println(climbStairs(5));
+        System.out.println(climbStairs2(5));
     }
 
     public int climbStairs(int n) {
@@ -28,6 +27,25 @@ public class StairsTest {
         }
 
         return dp[n];
+
+    }
+
+    public int climbStairs2(int n) {
+        if (n ==0 || n == 1){
+            return 1;
+        }
+        int a =0, b=1, sum=0;
+
+        for (int i=0; i<n; i++){
+            sum = (a + b) % 1000000007;
+
+            a = b;
+
+            b = sum;
+        }
+
+
+        return sum;
 
     }
 }
