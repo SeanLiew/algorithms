@@ -21,16 +21,12 @@ public class MajorityElement {
 
     public int majorityElement(int[] nums) {
         int curNum = nums[0];
-        int vote = 1;
-        for (int i = 1; i < nums.length; i++){
-            if (curNum == nums[i]){
-                vote++;
-            } else {
-                vote--;
-                if (vote == 0){
-                    curNum = nums[i + 1];
-                }
+        int vote = 0;
+        for (int i = 0; i < nums.length; i++){
+            if (vote == 0){
+                curNum = nums[i];
             }
+            vote += curNum == nums[i] ? 1 : -1;
         }
         return curNum;
     }
