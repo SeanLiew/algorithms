@@ -3,6 +3,9 @@ package leet.link;
 import leet.utils.GsonUtils;
 import org.junit.Test;
 
+import java.util.HashMap;
+import java.util.Map;
+
 /**
  * desc: 相交链表
  * author: liuxiaozheng
@@ -17,7 +20,7 @@ public class IntersectionNode {
         node2.next = node3;
 
 
-        ListNode intersectionNode = this.getIntersectionNode2(node2, node3);
+        ListNode intersectionNode = this.getIntersectionNode3(node2, node3);
 
         System.out.println(GsonUtils.toJson(intersectionNode));
 
@@ -63,6 +66,25 @@ public class IntersectionNode {
             if (countEnd == 4){
                 break;
             }
+        }
+        return null;
+    }
+
+    public ListNode getIntersectionNode3(ListNode headA, ListNode headB) {
+        if (headA == null || headB == null){
+            return null;
+        }
+        Map<ListNode, Boolean> map = new HashMap<>();
+
+        while(headA != null){
+            map.put(headA, true);
+            headA = headA.next;
+        }
+        while(headB != null){
+            if (map.get(headB) != null){
+                return headB;
+            }
+            headB = headB.next;
         }
         return null;
     }
