@@ -16,6 +16,7 @@ public class BinarySearch {
 
 
         System.out.println(search(arr, 1));
+        System.out.println(search2(arr, 4));
     }
     public int search(int[] nums, int target) {
 
@@ -43,6 +44,26 @@ public class BinarySearch {
             }
         }
         return count;
+    }
+    public int search2(int[] nums, int target) {
+
+        int left = 0;
+
+        int right = nums.length;
+
+        while (left < right){
+            int mid = (left + right) / 2;
+
+            if (nums[mid] >= target){
+                right = mid;
+            }
+            if (nums[mid] < target){
+                left = mid + 1;
+            }
+        }
+
+
+        return left++;
     }
 
 }
