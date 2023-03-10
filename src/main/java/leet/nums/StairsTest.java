@@ -14,6 +14,26 @@ public class StairsTest {
         System.out.println(climbStairs2(5));
     }
 
+    @Test
+    public void testNumberOfSteps(){
+        System.out.println(numberOfSteps(14));
+
+    }
+
+    public int numberOfSteps(int num) {
+        int[] nums = new int[1000001];
+
+        nums[0] = 0;
+        for (int i = 1; i < nums.length; i++){
+            if (i % 2 == 1){
+                nums[i] = nums[i-1] + 1;
+            } else {
+                nums[i] = nums[i/2] + 1;
+            }
+        }
+        return nums[num];
+    }
+
     public int climbStairs(int n) {
         if (n == 0 || n == 1){
             return 1;
@@ -47,5 +67,17 @@ public class StairsTest {
 
         return sum;
 
+    }
+
+    @Test
+    public void test2(){
+        final int SHARED_SHIFT   = 16;
+        final int SHARED_UNIT    = (1 << SHARED_SHIFT);
+        final int MAX_COUNT      = (1 << SHARED_SHIFT) - 1;
+        final int EXCLUSIVE_MASK = (1 << SHARED_SHIFT) - 1;
+
+        System.out.println(SHARED_UNIT);
+        System.out.println(MAX_COUNT);
+        System.out.println(EXCLUSIVE_MASK);
     }
 }
