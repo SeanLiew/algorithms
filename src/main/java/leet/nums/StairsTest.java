@@ -1,6 +1,9 @@
 package leet.nums;
 
+import com.alibaba.fastjson.JSON;
 import org.junit.Test;
+
+import java.util.Arrays;
 
 /**
  * desc:
@@ -79,5 +82,143 @@ public class StairsTest {
         System.out.println(SHARED_UNIT);
         System.out.println(MAX_COUNT);
         System.out.println(EXCLUSIVE_MASK);
+    }
+
+    @Test
+    public void testMinCostClimbingStairs(){
+        int[] cost = new int[]{5, 2, 1, 4};
+        System.out.println(minCostClimbingStairs(cost));
+        System.out.println(minCostClimbingStairs(new int[]{10, 15, 20}));
+        System.out.println(minCostClimbingStairs(new int[]{1, 100, 1, 1, 1, 100, 1, 1, 100, 1}));
+    }
+
+    public int minCostClimbingStairs(int[] cost) {
+        int[] f = new int[1024];
+        f[0] = f[1] = 0;
+        for (int i = 2; i <= cost.length; i++){
+            int num1 = f[i - 2] + cost[i - 2];
+            int num2 = f[i - 1] + cost[i - 1];
+            f[i] =  num1 < num2 ? num1 : num2;
+        }
+        return f[cost.length];
+    }
+
+    @Test
+    public void testRob(){
+        int[] cost = new int[]{5, 2, 1, 4};
+        System.out.println(rob(cost));
+        System.out.println(rob(new int[]{10, 15, 20}));
+        System.out.println(rob(new int[]{1, 100, 1, 1, 1, 100, 1, 1, 100, 1}));
+    }
+    public int rob(int[] nums) {
+        int[] dp = new int[101];
+        dp[0] = nums[0];
+        for (int i = 1; i < nums.length; i++){
+            if (i == 1){
+                dp[i] =  nums[0] > nums[1] ? nums[0] : nums[1];
+            }else {
+                int num1 = dp[i-2] + nums[i];
+                int num2 = dp[i-1];
+                dp[i] =  num1 > num2 ? num1 : num2;
+            }
+        }
+        return dp[nums.length-1];
+    }
+    @Test
+    public void testRob2(){
+        System.out.println(rob2(new int[]{10, 15, 20}));
+        System.out.println(rob2(new int[]{10}));
+        System.out.println(rob2(new int[]{8,7}));
+    }
+    public int rob2(int[] nums) {
+        if (nums.length == 0){
+            return 0;
+        }
+        if (nums.length == 1){
+            return nums[0];
+        }
+        int[] nums1 = new int[nums.length-1];
+        int[] nums2 = new int[nums.length-1];
+        System.arraycopy(nums,0, nums1, 0, nums.length-1);
+        System.arraycopy(nums,1, nums2, 0, nums.length-1);
+        int rob1 = rob(nums1);
+        int rob2 = rob(nums2);
+        return rob1 > rob2 ? rob1 : rob2;
+    }
+
+    @Test
+    public void testNumDecodings(){
+        System.out.println(numDecodings2("101"));
+    }
+    public int numDecodings(String s) {
+        int[] dp = new int[101];
+        dp[0] = 1;
+        for (int i=0; i<s.length();i++){
+            int cur = s.charAt(i) - '0';
+            if (i==0){
+                if (cur == 0){
+                    return 0;
+                } else {
+                    continue;
+                }
+            }
+            if (cur == 0){
+                if (i==0){
+                    return 0;
+                }
+                int pre = s.charAt(i - 1) - '0';
+                if (pre + cur == 0){
+                    return 0;
+                }
+                if (pre * 10 + cur > 26) {
+                    return 0;
+                }
+                if (i == 1){
+                    dp[i] = dp[0];
+                    continue;
+                }
+                dp[i] = dp[i-2];
+                continue;
+            }
+            dp[i] = dp[i-1];
+            int pre = s.charAt(i - 1) - '0';
+            if (pre == 0){
+                dp[i] = dp[i-1];
+                continue;
+            }
+            if ((pre *10) + cur <= 26) {
+                if (i == 1){
+                    dp[i] = dp[i] + 1;
+                } else {
+                    dp[i] = dp[i] + dp[i - 2];
+                }
+            }
+        }
+        return dp[s.length()-1];
+    }
+    public int numDecodings2(String s) {
+        int[] dp = new int[101];
+        dp[0] = 1;
+        for (int i=0; i<s.length();i++){
+            if (i == 0){
+                dp[i] = s.charAt(i) == '0' ? 0 : 1;
+            } else {
+                if (s.charAt(i) != '0'){
+                    dp[i] = dp[i] + dp[i-1];
+                }
+                int cur = s.charAt(i) - '0';
+                int pre = s.charAt(i - 1) - '0';
+                if (pre == 1 || pre == 2){
+                    if ((pre * 10) + cur <= 26){
+                        if (i == 1){
+                            dp[i] = dp[i] + 1;
+                        } else {
+                            dp[i] = dp[i] + dp[i - 2];
+                        }
+                    }
+                }
+            }
+        }
+        return dp[s.length()-1];
     }
 }
