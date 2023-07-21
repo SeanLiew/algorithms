@@ -221,4 +221,30 @@ public class StairsTest {
         }
         return dp[s.length()-1];
     }
+
+    @Test
+    public void testGetMaximumGenerated(){
+        System.out.println(getMaximumGenerated(4));
+    }
+    public int getMaximumGenerated(int n) {
+        int[] dp = new int[n+1];
+        dp[0] = 0;
+        dp[1] = 1;
+        for (int i = 0; i <= n; i++){
+            if (2 <= 2 * i && 2 * i <= n){
+                dp[i * 2] = dp[i];
+            }
+            if (2 <= 2 * i + 1 && 2 * i + 1 <= n){
+                dp[2 * i + 1] = dp[i] + dp[i + 1];
+            }
+        }
+        int max = 0;
+        for (int i = 0; i <= n; i++){
+            if (dp[i] > max){
+                max = dp[i];
+            }
+        }
+        return max;
+
+    }
 }
