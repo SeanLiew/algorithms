@@ -10,9 +10,9 @@ import org.junit.Test;
 public class MaxSubArray {
     @Test
     public void test(){
-//        int[] arr = {1,-1,2,2,-8,5,5,6,7,-1,8};
-        int[] arr = {-2,1,-3, 7};
-        int i = maxSubArray(arr);
+        int[] arr = {1,-1,2,2,-8,5,5,6,7,-1,8};
+//        int[] arr = {-2,1,-3, 7};
+        int i = maxSubArray2(arr);
 
         System.out.println(i);
     }
@@ -28,7 +28,17 @@ public class MaxSubArray {
                 }
             }
         }
+
         return max;
+    }
+
+    public int maxSubArray2(int[] nums) {
+        int res = nums[0];
+        for (int i = 1; i < nums.length; i++){
+            nums[i] += Math.max(nums[i - 1], 0);
+            res = Math.max(res, nums[i]);
+        }
+        return res;
     }
 
 }

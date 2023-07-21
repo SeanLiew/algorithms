@@ -1,5 +1,8 @@
 package leet.stacks;
 
+import leet.tree.TreeNode;
+import org.junit.Test;
+
 import java.util.Stack;
 
 /**
@@ -8,63 +11,61 @@ import java.util.Stack;
  * time: 2020/7/7  16:02
  **/
 public class MinStack {
+
     private Stack<Integer> stack;
-    private Stack<Integer> stack_min;
-    public MinStack() {
-        stack = new Stack<>();
-        stack_min = new Stack<>();
+
+    private Stack<Integer> minStack;
+
+    public MinStack (){
+        this.stack = new Stack<>();
+        this.minStack = new Stack<>();
     }
 
-    public void push(Integer x) {
-        stack.push(x);
-        if (stack_min.isEmpty() || x <= stack_min.peek()){
-            stack_min.push(x);
+
+    public void push(Integer val){
+        stack.push(val);
+
+        if (minStack.isEmpty() || val < minStack.peek()){
+            minStack.push(val);
         }
     }
 
-    public void pop() {
-        if (stack.isEmpty()){
-            return;
-        }
+    public Integer pop(){
+
         Integer pop = stack.pop();
-        if (pop.equals(stack_min.peek())){
-            stack_min.pop();
+        if (!minStack.isEmpty() && pop == minStack.peek()){
+            minStack.pop();
         }
+        return pop;
     }
 
-    public int top() {
-        if (stack.isEmpty()){
-            return 0;
-        }
-        return stack.peek();
+    public Integer getMin(){
+        return minStack.peek();
     }
 
-    public int getMin() {
-        if (stack_min.isEmpty()){
-            return 0;
-        }
-        return stack_min.peek();
-    }
 
-    public static void main(String[] args) {
+    @Test
+    public void test(){
+
+        Stack<Integer> stack = new Stack<>();
+        Stack<Integer> stackMin = new Stack<>();
+
         MinStack minStack = new MinStack();
-        minStack.push(512);
-        minStack.push(-1024);
-        minStack.push(-1024);
-        minStack.push(512);
-        minStack.pop();
-        int min = minStack.getMin();
-        System.out.println(min);
-        minStack.pop();
-        int min1 = minStack.getMin();
-        System.out.println(min1);
-        int min2 = minStack.getMin();
-        System.out.println(min2);
-        minStack.pop();
-        int min3 = minStack.getMin();
-        System.out.println(min3);
 
-
+        minStack.push(9);
+        System.out.println(minStack.getMin());
+        minStack.push(3);
+        System.out.println(minStack.getMin());
+        minStack.push(2);
+        System.out.println(minStack.getMin());
+        minStack.push(4);
+        minStack.pop();
+        System.out.println(minStack.getMin());
+        minStack.pop();
+        System.out.println(minStack.getMin());
+        minStack.push(5);
+        System.out.println(minStack.getMin());
     }
+
 
 }

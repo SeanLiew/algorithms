@@ -1,5 +1,8 @@
 package leet.sums;
 
+import com.alibaba.fastjson.JSON;
+import org.junit.Test;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
@@ -54,5 +57,32 @@ public class TwoSum {
         obj.add(2);
         boolean find = obj.find(3);
         System.out.println(find);
+    }
+
+    public int[] twoSum(int[] nums, int target) {
+        if (nums == null || nums.length < 2){
+            return new int[0];
+        }
+        int low = 0;
+        int high = nums.length - 1;
+
+        while (low <= high){
+            if (nums[low] + nums[high] == target){
+                return new int[]{nums[low], nums[high]};
+            }
+            if (nums[low] + nums[high] > target){
+                high--;
+            }
+            if (nums[low] + nums[high] < target){
+                low++;
+            }
+        }
+        return new int[0];
+    }
+
+    @Test
+    public void test(){
+        int[] arr = {1,2,3,4,5,6};
+        System.out.println(JSON.toJSONString(twoSum(arr, 7)));
     }
 }

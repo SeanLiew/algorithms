@@ -13,28 +13,21 @@ import java.util.Map;
 public class MajorityElement {
     @Test
     public void test(){
-        int[] arr = {1};
+        int[] arr = {4,2,4,4,4,5,5};
         int i = majorityElement(arr);
 
         System.out.println(i);
     }
 
     public int majorityElement(int[] nums) {
-        if (nums.length == 1){
-            return nums[0];
-        }
-        Map<Integer, Integer> map = new HashMap<>();
-        for (Integer num : nums){
-            Integer cache = map.get(num);
-            if (cache == null){
-                map.put(num, 1);
-                continue;
+        int curNum = nums[0];
+        int vote = 0;
+        for (int i = 0; i < nums.length; i++){
+            if (vote == 0){
+                curNum = nums[i];
             }
-            if (++cache > nums.length / 2){
-                return num;
-            }
-            map.put(num, cache);
+            vote += curNum == nums[i] ? 1 : -1;
         }
-        return 0;
+        return curNum;
     }
 }

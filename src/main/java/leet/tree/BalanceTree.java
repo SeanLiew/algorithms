@@ -33,6 +33,7 @@ public class BalanceTree {
 
 
         System.out.println(isBalanced(treeNode1));
+        System.out.println(isBalanced2(treeNode1));
     }
 
     public boolean isBalanced(TreeNode root) {
@@ -57,5 +58,42 @@ public class BalanceTree {
         int leftHeight = height(currentHeight, root.left);
         int rightHeight = height(currentHeight, root.right);
         return leftHeight > rightHeight ? leftHeight : rightHeight;
+    }
+
+
+
+
+
+
+
+
+
+    public boolean isBalanced2(TreeNode root) {
+        if (root == null){
+            return true;
+        }
+        int leftHeight = height2(root.left);
+        int rightHeight = height2(root.right);
+
+        if (Math.abs(leftHeight - rightHeight) <= 1 && isBalanced2(root.left) && isBalanced2(root.right)){
+            return true;
+        }
+
+
+        return false;
+    }
+
+
+    public int height2(TreeNode root) {
+        if (root == null){
+            return 0;
+        }
+        int height = 1;
+
+        int leftHeight = height2(root.left);
+
+        int rightHeight = height2(root.right);
+
+        return height + Math.max(leftHeight, rightHeight);
     }
 }
