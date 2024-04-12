@@ -10,51 +10,7 @@ import org.junit.Test;
  **/
 public class ArrayTest {
 
-    @Test
-    public void test(){
-        int[] arr = {1,1,2,2,4,5,5,6,7,7,8};
-        int i = removeDuplicates(arr);
 
-        System.out.println(i);
-    }
-
-    public int removeDuplicates(int[] nums) {
-
-        int result = 0;
-
-        for (int i = 1; i < nums.length; i++){
-            if (nums[i] != nums[result]){
-                nums[++result] = nums[i];
-            }
-        }
-
-        return result + 1;
-    }
-
-    @Test
-    public void test2(){
-        int[] arr = {3,2,2,3};
-        int i = removeElement(arr, 3);
-
-        System.out.println(i);
-
-
-    }
-
-    public int removeElement(int[] nums, int val) {
-        int result = 0;
-
-        for (int i = 0; i < nums.length; i++){
-            if (nums[i] != val){
-                nums[result++] = nums[i];
-            }
-        }
-
-        System.out.println(JSON.toJSON(nums));
-
-
-        return result;
-    }
 
     @Test
     public void testSearch(){
