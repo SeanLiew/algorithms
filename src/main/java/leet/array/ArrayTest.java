@@ -3,6 +3,8 @@ package leet.array;
 import com.alibaba.fastjson.JSON;
 import org.junit.Test;
 
+import java.util.Arrays;
+
 /**
  * desc:
  * author: liuxiaozheng
@@ -65,5 +67,32 @@ public class ArrayTest {
                 left = mid;
             }
         }
+    }
+
+    public int majorityElement(int[] nums) {
+        Arrays.sort(nums);
+        if (nums.length == 1){
+            return nums[0];
+        }
+        int count = 1;
+        int pointer = 0;
+        for (int i = 1; i < nums.length; i++) {
+            if (nums[i] != nums[pointer]) {
+                count = 1;
+                pointer = i;
+            } else {
+                count++;
+            }
+            if (count > nums.length / 2) {
+                return nums[pointer];
+            }
+        }
+        return -1;
+    }
+
+    @Test
+    public void testMajorityElement(){
+        int[] arr = {1,1,2,2,2};
+        System.out.println(majorityElement(arr));
     }
 }
