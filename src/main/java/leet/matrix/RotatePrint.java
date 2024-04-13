@@ -85,6 +85,41 @@ public class RotatePrint {
 
     }
 
+    public int[] spiralOrder3(int[][] matrix) {
+        if (matrix == null || matrix.length == 0) {
+            return new int[0];
+        }
+        int[] result = new int[matrix.length * matrix[0].length];
+        int top = 0;
+        int bottom = matrix.length - 1;
+        int left = 0;
+        int right = matrix[0].length - 1;
+        int index = 0;
+        while (top <= bottom && left <= right) {
+            //left-right
+            for (int i = left; i <= right; i++) {
+                result[index++] = matrix[top][i];
+            }
+            top++;
+            //top-bottom
+            for (int i = top; i <= bottom; i++) {
+                result[index++] = matrix[i][right];
+            }
+            right--;
+            //right-left
+            for (int i = right; i >= left && top <= bottom; i--) {
+                result[index++] = matrix[bottom][i];
+            }
+            bottom--;
+            //bottom-top
+            for (int i = bottom; i >= top && left <= right; i--) {
+                result[index++] = matrix[i][left];
+            }
+            left++;
+        }
+        return result;
+    }
+
     @Test
     public void test() {
         int[][] matrix = new int[3][4];
@@ -105,6 +140,7 @@ public class RotatePrint {
         System.out.println(JSON.toJSONString(matrix[1]));
         System.out.println(JSON.toJSONString(matrix[2]));
         System.out.println(JSON.toJSONString(spiralOrder(matrix)));
+        System.out.println(JSON.toJSONString(spiralOrder3(matrix)));
 
     }
 }
