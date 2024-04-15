@@ -12,26 +12,29 @@ public class Rotate {
     @Test
     public void test(){
         int[] nums = {1,2,3,4,5,6};
+        //6,5,4,3,2,1
         System.out.println(GsonUtils.toJson(nums));
-        rotate(nums, 1);
+        rotate(nums, 2);
         System.out.println(GsonUtils.toJson(nums));
     }
 
     public void rotate(int[] nums, int k) {
-        k %= nums.length;
+        k = k  % nums.length;
         reverse(nums, 0, nums.length - 1);
         reverse(nums, 0, k - 1);
         reverse(nums, k, nums.length - 1);
 
     }
 
-    private void reverse(int[] nums, int start, int end){
-        while(start < end){
-            int temp = nums[start];
-            nums[start] = nums[end];
-            nums[end] = temp;
-            start++;
-            end--;
+    public void reverse(int[] nums, int min, int max) {
+        while (min < max) {
+            int temp = nums[min];
+            nums[min] = nums[max];
+            nums[max] = temp;
+            min++;
+            max--;
         }
+
     }
+
 }
