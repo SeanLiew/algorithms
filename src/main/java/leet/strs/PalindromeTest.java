@@ -34,4 +34,48 @@ public class PalindromeTest {
 
         return sBuffer.toString().equals(reverse.toString());
     }
+    public boolean isPalindrome2(String str) {
+        if (str == null){
+            return false;
+        }
+        //c >= 97 && c <= 122
+
+        int start = 0;
+        int end = str.length() - 1;
+        while (start <= end) {
+            int startChar = str.charAt(start);
+            if (startChar >= 97 && startChar <= 122) {
+                startChar = startChar - 32;
+            }
+            if (!(startChar >= 65 && startChar <= 90 || startChar >= 48 && startChar <= 57)) {
+                start++;
+                continue;
+            }
+            int endChar = str.charAt(end);
+            if (endChar >= 97 && endChar <= 122) {
+                endChar = endChar - 32;
+            }
+            if (!(endChar >= 65 && endChar <= 90 || endChar >= 48 && endChar <= 57)) {
+                end--;
+                continue;
+            }
+            if (startChar != endChar) {
+                return false;
+            }
+            start++;
+            end--;
+        }
+        return true;
+    }
+
+
+
+
+    @Test
+    public void test2(){
+        System.out.println(isPalindrome2("Ab` a"));
+        System.out.println(isPalindrome2("A man, a plan, a canal: Panama"));
+        System.out.println(isPalindrome2("race a car"));
+
+    }
 }
