@@ -75,15 +75,12 @@ public class MaxDepth {
     }
 
     public int maxDepth3(TreeNode root) {
-        if (root == null){
+        if (root == null) {
             return 0;
         }
         int height = 1;
-
         int leftHeight = maxDepth3(root.left);
-
         int rightHeight = maxDepth3(root.right);
-
         return height + Math.max(leftHeight, rightHeight);
     }
 }
