@@ -3,8 +3,11 @@ package leet.tree;
 
 import org.junit.Test;
 
+import java.util.ArrayDeque;
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
+import java.util.Queue;
 
 /**
  * desc: 相同二叉树
@@ -46,6 +49,56 @@ public class TwoTree {
             return false;
         }
         return isSameTree(p.left, q.left) && isSameTree(p.right, q.right);
+    }
+    @Test
+    public void test2(){
+        TreeNode treeNode1 = new TreeNode(3);
+        TreeNode leftNode1 = new TreeNode(1);
+        TreeNode rightNode1 = new TreeNode(2);
+        treeNode1.left = leftNode1;
+        treeNode1.right = rightNode1;
+
+        TreeNode treeNode2 = new TreeNode(3);
+        TreeNode leftNode2 = new TreeNode(1);
+        TreeNode rightNode2 = new TreeNode(2);
+        treeNode2.left = leftNode2;
+        treeNode2.right = rightNode2;
+
+
+        System.out.println(isSameTree2(treeNode1,treeNode2 ));
+    }
+
+
+    public boolean isSameTree2(TreeNode p, TreeNode q) {
+        if (p == null && q == null) {
+            return true;
+        }
+        if (p == null || q == null) {
+            return false;
+        }
+        LinkedList<TreeNode> queue = new LinkedList<>();
+        queue.offer(p);
+        queue.offer(q);
+        while (!queue.isEmpty()) {
+            TreeNode node1 = queue.remove();
+            TreeNode node2 = queue.remove();
+            if (node1 == null && node2 == null) {
+                continue;
+            }
+            if (node1 == null || node2 == null) {
+                return false;
+            }
+            if (node1.val != node2.val) {
+                return false;
+            }
+            queue.add(node1.left);
+            queue.add(node2.left);
+
+            queue.add(node1.right);
+            queue.add(node2.right);
+
+        }
+        return true;
     }
 
 
