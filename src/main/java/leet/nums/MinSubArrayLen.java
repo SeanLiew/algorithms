@@ -10,37 +10,24 @@ import org.junit.Test;
 public class MinSubArrayLen {
     public int minSubArrayLen(int target, int[] nums) {
         if (nums.length == 1) {
-            return nums[0] == target ? 1 : 0;
+            return nums[0] >= target ? 1 : 0;
         }
 
         int left = 0;
         int right = 0;
-        int minStep = 0;
-        while (left < nums.length) {
-            int sum = 0;
-            for (int i = left; i <= right; i++) {
-                sum += nums[i];
-            }
-            if (sum >= target) {
-                if (minStep == 0) {
-                    minStep = right - left + 1;;
-                } else{
-                    minStep = Math.min(minStep, right - left + 1);
-                }
-            }
-
-            if (sum >= target) {
+        int minStep = Integer.MAX_VALUE;
+        int sum = 0;
+        while (right < nums.length) {
+            sum += nums[right];
+            while (sum >= target) {
+                minStep = Math.min(minStep, right - left + 1);
+                sum -= nums[left];
                 left++;
             }
-            if (sum < target) {
-                if (right < nums.length - 1) {
-                    right++;
-                } else {
-                    break;
-                }
-            }
+
+            right++;
         }
-        return minStep;
+        return minStep == Integer.MAX_VALUE ? 0 : minStep;
     }
 
     @Test
