@@ -95,4 +95,44 @@ public class ArrayTest {
         int[] arr = {1,1,2,2,2};
         System.out.println(majorityElement(arr));
     }
+
+    @Test
+    public void test2(){
+        int[] arr = {1,3,5,9};
+        int i = searchInsert3(arr, 10);
+
+        System.out.println(i);
+    }
+
+    public int searchInsert3(int[] nums, int target) {
+        int low = 0;
+        int high = nums.length - 1;
+        if (target > nums[high]) {
+            return high + 1;
+        }
+        if (target < nums[low]) {
+            return low;
+        }
+        while (low <= high) {
+            int mid = (low + high) / 2;
+            if (nums[mid] == target) {
+                return mid;
+            }
+            if (nums[mid] > target && high != mid) {
+                high = mid;
+                continue;
+            }
+            if (nums[mid] < target && low != mid) {
+                low = mid;
+                continue;
+            }
+            if (mid == low) {
+                return low + 1;
+            }
+            if (mid == high) {
+                return high + 1;
+            }
+        }
+        return 0;
+    }
 }

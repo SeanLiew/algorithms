@@ -75,15 +75,53 @@ public class MaxDepth {
     }
 
     public int maxDepth3(TreeNode root) {
-        if (root == null){
+        if (root == null) {
             return 0;
         }
         int height = 1;
-
         int leftHeight = maxDepth3(root.left);
-
         int rightHeight = maxDepth3(root.right);
-
         return height + Math.max(leftHeight, rightHeight);
+    }
+
+    @Test
+    public void test4(){
+        TreeNode treeNode1 = new TreeNode(3);
+        TreeNode leftNode1 = new TreeNode(1);
+        TreeNode rightNode1 = new TreeNode(2);
+        treeNode1.left = leftNode1;
+        treeNode1.right = rightNode1;
+
+        TreeNode leftNode11 = new TreeNode(4);
+        TreeNode leftNode12 = new TreeNode(5);
+        leftNode1.left = leftNode11;
+        leftNode1.right = leftNode12;
+
+        TreeNode leftNode111 = new TreeNode(6);
+        leftNode11.left = leftNode111;
+        System.out.println(maxDepth4(treeNode1));
+    }
+
+    public int maxDepth4(TreeNode root) {
+        if (root == null) {
+            return 0;
+        }
+        int level = 0;
+        Queue<TreeNode> queue = new ArrayDeque<>();
+        queue.offer(root);
+        while (!queue.isEmpty()) {
+            int size = queue.size();
+            for (int i = 0; i < size; i++){
+                TreeNode poll = queue.poll();
+                if (poll.left != null) {
+                    queue.offer(poll.left);
+                }
+                if (poll.right != null) {
+                    queue.offer(poll.right);
+                }
+            }
+            level++;
+        }
+        return level;
     }
 }

@@ -3,6 +3,8 @@ package leet.stacks;
 import leet.tree.TreeNode;
 import org.junit.Test;
 
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Stack;
 
 /**
@@ -65,6 +67,38 @@ public class MinStack {
         System.out.println(minStack.getMin());
         minStack.push(5);
         System.out.println(minStack.getMin());
+    }
+
+    public boolean isValid(String s) {
+        if (s == null || s.length() == 1) {
+            return false;
+        }
+
+//        '('，')'，'{'，'}'，'['，']'
+        Map<Character, Character> map = new HashMap<>();
+        map.put(')', '(');
+        map.put('}','{');
+        map.put(']','[');
+        Stack<Character> stack = new Stack<>();
+        stack.push(s.charAt(0));
+        for (int i = 1; i < s.length(); i++) {
+            Character sym = map.get(s.charAt(i));
+            if (!stack.isEmpty() && stack.peek().equals(sym)) {
+                stack.pop();
+                continue;
+            }
+            stack.push(s.charAt(i));
+        }
+        return stack.isEmpty();
+    }
+
+    @Test
+    public void testIsValid(){
+
+        System.out.println(isValid("[]{()}"));
+        System.out.println(isValid("[]{())}"));
+        System.out.println(isValid("[]{)(}"));
+
     }
 
 

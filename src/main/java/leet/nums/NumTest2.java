@@ -10,29 +10,30 @@ public class NumTest2 {
     @Test
     public void testCountAndSay (){
 
-        System.out.println(isHappy(7));
+        System.out.println(isHappy(2));
     }
 
     boolean isHappy(int n) {
-        int slowRunner = n;
-        int fastRunner = getNext(n);
-        while (fastRunner != 1 && fastRunner != slowRunner){
-            slowRunner = getNext(slowRunner);
-            fastRunner = getNext(getNext(fastRunner));
+        int slowRunner = next(n);
+        int fastRunner = next(next(n));
+        while (fastRunner != 1 && slowRunner != fastRunner) {
+            slowRunner = next(slowRunner);
+            fastRunner = next(next(fastRunner));
         }
-
         return fastRunner == 1;
     }
 
-    int getNext(int n){
-        int next = 0;
-        while(n >= 1){
-            int i = n % 10;
-            next = next + i * i;
-            n = n /10;
+    public int next(int num) {
+        int result = 0;
+        while (num > 0) {
+            int i = num % 10;
+            result = result + i * i;
+            num = num / 10;
         }
-        return next;
+        return result;
     }
+
+
 
     @Test
     public void testContainsDuplicate(){

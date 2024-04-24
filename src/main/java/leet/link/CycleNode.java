@@ -26,7 +26,7 @@ public class CycleNode {
         node3.next = node4;
         node4.next = node5;
         node5.next = node6;
-//        node6.next = node3;
+        node6.next = node3;
 
         boolean b = this.hasCycle(node1);
 
@@ -36,16 +36,15 @@ public class CycleNode {
 
 
     public boolean hasCycle(ListNode head) {
-        Map<ListNode, Integer> map = new HashMap<>();
-        while(head != null){
-            System.out.println(head.val);
-            Integer val = map.get(head);
-            if (val != null){
-                return true;
-            }
-            map.put(head, head.val);
-            head = head.next;
+        if (head == null || head.next == null) {
+            return false;
         }
-        return false;
+        ListNode slowRunner = head;
+        ListNode fastRunner = head.next;
+        while (fastRunner != null && fastRunner.next != null && slowRunner != fastRunner) {
+            slowRunner = slowRunner.next;
+            fastRunner = fastRunner.next.next;
+        }
+        return slowRunner == fastRunner;
     }
 }

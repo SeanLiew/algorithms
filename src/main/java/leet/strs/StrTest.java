@@ -91,7 +91,7 @@ public class StrTest {
 
     @Test
     public void testSubStr(){
-        String hav = "df";
+        String hav = "abdf";
         String needle = "df";
 
         int i1 = hav.indexOf(needle);
@@ -102,27 +102,21 @@ public class StrTest {
     }
 
     public int strStr(String haystack, String needle) {
-        if (haystack == null){
+        if (haystack == null) {
             return -1;
         }
-
-        if (needle == null){
+        if (needle == null) {
             return 0;
         }
-
-        int length = needle.length();
-
-        if (haystack.length() < length){
+        if (needle.length() > haystack.length()) {
             return -1;
         }
-
-        for (int i=0; i <= haystack.length() - length; i++){
-            String sub = haystack.substring(i, i + length);
-            if (needle.equals(sub)){
+        for (int i = 0; i <= haystack.length() - needle.length(); i++)  {
+            String substring = haystack.substring(i, i + needle.length());
+            if (substring.equals(needle)) {
                 return i;
             }
         }
-
         return -1;
     }
 

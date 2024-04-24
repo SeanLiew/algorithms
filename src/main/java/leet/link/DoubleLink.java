@@ -57,4 +57,48 @@ public class DoubleLink {
 
         return dummyHead.next;
     }
+
+    @Test
+    public void test2(){
+        ListNode first1 = new ListNode(1);
+        ListNode third1 = new ListNode(3);
+        first1.next = third1;
+        ListNode forth1 = new ListNode(4);
+        third1.next = forth1;
+
+        ListNode first2 = new ListNode(1);
+        ListNode second2 = new ListNode(2);
+        first2.next = second2;
+        ListNode third2 = new ListNode(3);
+        second2.next = third2;
+        ListNode forth2 = new ListNode(4);
+        third2.next = forth2;
+
+        ListNode listNode = mergeTwoLists2(first1, first2);
+
+        while(listNode != null){
+            System.out.print(listNode.val + "->");
+            listNode = listNode.next;
+        }
+
+    }
+
+
+    public ListNode mergeTwoLists2(ListNode l1, ListNode l2) {
+        ListNode result = new ListNode(0);
+        ListNode dummyHead = result;
+        while (l1 != null || l2 != null) {
+            if (l1 != null && (l2 == null || l1.val <= l2.val)) {
+                result.next = l1;
+                result = result.next;
+                l1 = l1.next;
+            }
+            if (l2 != null && (l1 == null || l2.val < l1.val)) {
+                result.next = l2;
+                result = result.next;
+                l2 = l2.next;
+            }
+        }
+        return dummyHead.next;
+    }
 }
