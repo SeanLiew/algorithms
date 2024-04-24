@@ -44,49 +44,6 @@ public class NumbersTest {
         return result;
     }
 
-    @Test
-    public void testIsPalindrome (){
-
-        boolean result = isPalindrome(12210);
-
-
-        System.out.println(result);
-    }
-
-    public boolean isPalindrome(int original) {
-
-        if (original < 0){
-            return false;
-        }
-        if (original < 10 || original == 0){
-            return true;
-        }
-        if (original % 10 == 0){
-            return false;
-        }
-
-        int result = 0;
-
-        while (true){
-            int last = original % 10;
-
-            if (result * 10 > original){
-                return false;
-            }
-
-            result = result * 10 + last;
-
-            if (result == original){
-                return true;
-            }
-
-            original = original / 10;
-
-            if (result == original){
-                return true;
-            }
-        }
-    }
 
     @Test
     public void testCountAndSay (){
