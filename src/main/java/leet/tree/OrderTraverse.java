@@ -35,6 +35,8 @@ public class OrderTraverse {
         System.out.println(JSON.toJSONString(integers));
         integers = preOrderTraverse(treeNode1);
         System.out.println(JSON.toJSONString(integers));
+        integers = preOrderTraverse(treeNode1, 6);
+        System.out.println(JSON.toJSONString(integers));
     }
 
     @Test
@@ -68,6 +70,24 @@ public class OrderTraverse {
             }
             if (pop.left != null){
                 stack.push(pop.left);
+            }
+        }
+        return result;
+    }
+    public List<Integer> preOrderTraverse(TreeNode root, int maxSize) {
+        List<Integer> result = new ArrayList<>();
+
+        TreeNode[] stack = new TreeNode[maxSize];
+        int top = 0;
+        stack[top] = root;
+        while(top >= 0){
+            TreeNode pop = stack[top--];
+            result.add(pop.val);
+            if (pop.right != null){
+                stack[++top] = pop.right;
+            }
+            if (pop.left != null){
+                stack[++top] = pop.left;
             }
         }
         return result;
