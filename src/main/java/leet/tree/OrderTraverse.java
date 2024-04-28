@@ -45,6 +45,8 @@ public class OrderTraverse {
         System.out.println(JSON.toJSONString(integers));
         integers = inOrderTraverse(treeNode1);
         System.out.println(JSON.toJSONString(integers));
+        integers = inOrderTraverse2(treeNode1, 6);
+        System.out.println(JSON.toJSONString(integers));
 
     }
 
@@ -162,6 +164,25 @@ public class OrderTraverse {
             result.add(cur.val);
             cur = cur.right;
 
+        }
+        return result;
+    }
+    public List<Integer> inOrderTraverse2(TreeNode root, int maxSize) {
+        if (root == null) {
+            return null;
+        }
+        List<Integer> result = new ArrayList<>();
+        TreeNode[] stack = new TreeNode[maxSize];
+        int top = -1;
+        TreeNode cur = root;
+        while (top >= 0 || cur != null) {
+            while (cur != null) {
+                stack[++top] = cur;
+                cur = cur.left;
+            }
+            cur = stack[top--];
+            result.add(cur.val);
+            cur = cur.right;
         }
         return result;
     }
