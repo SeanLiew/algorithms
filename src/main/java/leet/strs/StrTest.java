@@ -14,42 +14,6 @@ import java.util.Stack;
 public class StrTest {
 
     @Test
-    public void test(){
-        String[] strs = {"aa", "a"};
-        String result = longestCommonPrefix(strs);
-        System.out.println(result);
-
-    }
-
-    public String longestCommonPrefix(String[] strs) {
-        StringBuilder result = new StringBuilder("");
-        if (strs.length == 0){
-            return result.toString();
-        }
-
-        String firstStr = strs[0];
-
-        if (strs.length == 1){
-            return firstStr;
-        }
-
-        for (int i=0; i < firstStr.length(); i++){
-            char firstStrChar = firstStr.charAt(i);
-            for (int j=1; j <  strs.length; j++){
-                String otherStr = strs[j];
-                if (otherStr.length() < i + 1){
-                    return result.toString();
-                }
-                if (otherStr.charAt(i) != firstStrChar){
-                    return result.toString();
-                }
-            }
-            result = result.append(firstStrChar);
-        }
-        return result.toString();
-    }
-
-    @Test
     public void testValid(){
         String str = "()[]{}";
         boolean valid = isValid(str);
