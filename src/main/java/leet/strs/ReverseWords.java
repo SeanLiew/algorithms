@@ -37,7 +37,6 @@ public class ReverseWords {
         }
         return sb.toString();
     }
-
     @Test
     public void test(){
         System.out.println(reverseWords(" d df"));
@@ -45,5 +44,59 @@ public class ReverseWords {
         System.out.println(reverseWords("EPY2giL"));
         System.out.println(reverseWords("a go"));
         System.out.println(reverseWords("  hello world  "));
+    }
+
+    public String reverseWords2(String s) {
+        int length = s.length();
+        StringBuilder sb = new StringBuilder();
+        int end = length;
+        int start = length - 1;
+        boolean last = true;
+        while (start >= 0) {
+            while (end > 0 && s.charAt(end-1) == ' ') {
+                end--;
+            }
+            while (end > 0 && start >= end) {
+                start--;
+            }
+            if (start == 0 && start != end) {
+                if (!last) {
+                    sb.insert(0, ' ');
+                } else {
+                    last = false;
+                }
+                if (s.charAt(start) == ' ') {
+                    sb.insert(0, s.substring(start + 1, end));
+                } else {
+                    sb.insert(0, s.substring(start, end));
+                }
+                start--;
+                continue;
+            }
+            if (end > 0 && s.charAt(start) == ' ') {
+                if (!last) {
+                    sb.insert(0, ' ');
+                } else {
+                    last = false;
+                }
+                sb.insert(0, s.substring(start + 1, end));
+                end = start;
+                start--;
+                continue;
+            }
+            start--;
+        }
+        return sb.toString();
+    }
+
+    @Test
+    public void test2(){
+        System.out.println(reverseWords2("  ho wd  "));
+
+        System.out.println(reverseWords2("a go"));
+        System.out.println(reverseWords2("EPY2giL"));
+//
+        System.out.println(reverseWords2(" d df"));
+        System.out.println(reverseWords2("the sky is blue"));
     }
 }
