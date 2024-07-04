@@ -9,8 +9,20 @@ import org.junit.Test;
  */
 public class CompleteCircuit {
     public int canCompleteCircuit(int[] gas, int[] cost) {
-
-        return -1;
+        int sum = 0;
+        int min = Integer.MAX_VALUE;
+        int minIndex = -1;
+        for(int i = 0; i < gas.length; i++){
+            sum = sum + gas[i] - cost[i];
+            if(sum < min && sum < 0){
+                min = sum;
+                minIndex = i;
+            }
+        }
+        if(sum < 0){
+            return -1;
+        }
+        return (minIndex + 1 )%gas.length;
     }
 
     @Test
