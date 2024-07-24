@@ -63,13 +63,13 @@ public class TwoSum {
 
     public int[] twoSum(int[] nums, int target) {
         if (nums == null || nums.length < 2) {
-            return new int[]{0};
+            return new int[]{};
         }
         int low = 0;
-        int high = nums.length -1;
+        int high = nums.length - 1;
         while (low < high) {
             if (nums[low] + nums[high] == target) {
-                return new int[]{low, high};
+                return new int[]{nums[low], nums[high]};
             }
             if (nums[low] + nums[high] > target) {
                 high--;
@@ -78,8 +78,7 @@ public class TwoSum {
                 low++;
             }
         }
-
-        return new int[]{0};
+        return new int[]{};
     }
 
     @Test
@@ -112,4 +111,24 @@ public class TwoSum {
         int[] arr = {3,2,4};
         System.out.println(JSON.toJSONString(twoSum2(arr, 6)));
     }
+
+//    if (nums == null || nums.length < 2) {
+//        return new int[]{0};
+//    }
+//    int low = 0;
+//    int high = nums.length -1;
+//        while (low < high) {
+//        if (nums[low] + nums[high] == target) {
+//            return new int[]{low, high};
+//        }
+//        if (nums[low] + nums[high] > target) {
+//            high--;
+//        }
+//        if (nums[low] + nums[high] < target) {
+//            low++;
+//        }
+//    }
+//
+//        return new int[]{0};
+
 }
