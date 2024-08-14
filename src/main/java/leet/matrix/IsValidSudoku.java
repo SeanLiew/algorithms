@@ -3,6 +3,9 @@ package leet.matrix;
 import com.alibaba.fastjson.JSON;
 import org.junit.Test;
 
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
 import java.util.Set;
 
 /**
@@ -12,30 +15,35 @@ import java.util.Set;
  */
 public class IsValidSudoku {
     public boolean isValidSudoku(char[][] board) {
-        Set[] rowSet = new Set[9];
-        Set[] columnSet = new Set[9];
-        Set[] mSet = new Set[9];
+        int[][] rowNum = new int[9][9];
+        int[][] columnNum = new int[9][9];
+        int[][][] subNum = new int[3][3][9];
 
-
-
-        return false;
+        for (int row = 0; row < 9; row++) {
+            for (int column = 0; column < 9; column++) {
+                char c = board[row][column];
+                if (c == '.') {
+                    continue;
+                }
+                int index = c - '0' - 1;
+                rowNum[row][index]++;
+                columnNum[column][index]++;
+                subNum[row/3][column/3][index]++;
+                if (rowNum[row][index] > 1 || columnNum[column][index] > 1 || subNum[row/3][column/3][index] > 1) {
+                    return false;
+                }
+            }
+        }
+        return true;
     }
 
     @Test
     public void test() {
         char[][] matrix = new char[9][9];
         matrix[0][0] = 1;
-        matrix[0][1] = 2;
+        matrix[0][1] = '.';
         matrix[0][2] = 3;
         matrix[0][3] = 4;
-        matrix[1][0] = 5;
-        matrix[1][1] = 6;
-        matrix[1][2] = 7;
-        matrix[1][3] = 8;
-        matrix[2][0] = 9;
-        matrix[2][1] = 10;
-        matrix[2][2] = 11;
-        matrix[2][3] = 12;
 
         System.out.println(JSON.toJSONString(matrix));
         System.out.println(isValidSudoku(matrix));
