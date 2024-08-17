@@ -3,6 +3,9 @@ package leet.matrix;
 import com.alibaba.fastjson.JSON;
 import org.junit.Test;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * @Desc:
  * @Author: Sean
@@ -119,6 +122,40 @@ public class RotatePrint {
         }
         return result;
     }
+    public List<Integer> spiralOrder4(int[][] matrix) {
+        if (matrix == null || matrix.length == 0) {
+            return new ArrayList<>();
+        }
+        int top = 0;
+        int bottom = matrix.length - 1;
+        int left = 0;
+        int right = matrix[0].length - 1;
+        List<Integer> result =  new ArrayList<>();
+
+        while (top <= bottom && left <= right) {
+            //left - right
+            for (int i = left; i <= right; i++) {
+                result.add(matrix[top][i]);
+            }
+            top++;
+            //top - bottom
+            for (int i = top; i <= bottom; i++) {
+                result.add(matrix[i][right]);
+            }
+            right--;
+            //right - left
+            for (int i = right; i >= left && top <= bottom; i--) {
+                result.add(matrix[bottom][i]);
+            }
+            bottom--;
+            //bottom - top
+            for (int i = bottom; i >= top && left <= right; i--) {
+                result.add(matrix[i][left]);
+            }
+            left++;
+        }
+        return result;
+    }
 
     @Test
     public void test() {
@@ -139,8 +176,7 @@ public class RotatePrint {
         System.out.println(JSON.toJSONString(matrix[0]));
         System.out.println(JSON.toJSONString(matrix[1]));
         System.out.println(JSON.toJSONString(matrix[2]));
-        System.out.println(JSON.toJSONString(spiralOrder(matrix)));
-        System.out.println(JSON.toJSONString(spiralOrder3(matrix)));
+        System.out.println(JSON.toJSONString(spiralOrder4(matrix)));
 
     }
 }
