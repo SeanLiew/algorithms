@@ -64,9 +64,25 @@ public class RotateTest {
         System.out.println(JSON.toJSONString(matrix[1]));
         System.out.println(JSON.toJSONString(matrix[2]));
     }
-
-
-
+    public void rotate3(int[][] matrix) {
+        int n = matrix.length;
+        //水平翻转
+        for (int i = 0; i < n / 2; i++) {
+            for (int j = 0; j < n; j++) {
+                int temp = matrix[i][j];
+                matrix[i][j] = matrix[n - i - 1][j];
+                matrix[n - i - 1][j] = temp;
+            }
+        }
+        //对角线翻转
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < i; j++) {
+                int temp = matrix[i][j];
+                matrix[i][j] = matrix[j][i];
+                matrix[j][i] = temp;
+            }
+        }
+    }
 
     @Test
     public void test2() {
@@ -85,7 +101,10 @@ public class RotateTest {
         System.out.println(JSON.toJSONString(matrix[1]));
         System.out.println(JSON.toJSONString(matrix[2]));
         System.out.println("--------------");
-        rotate2(matrix);
+        rotate3(matrix);
+        System.out.println(JSON.toJSONString(matrix[0]));
+        System.out.println(JSON.toJSONString(matrix[1]));
+        System.out.println(JSON.toJSONString(matrix[2]));
 
     }
     @Test
@@ -113,7 +132,7 @@ public class RotateTest {
         System.out.println(JSON.toJSONString(matrix[2]));
         System.out.println(JSON.toJSONString(matrix[3]));
         System.out.println("--------------");
-        rotate(matrix);
+        rotate3(matrix);
         System.out.println(JSON.toJSONString(matrix[0]));
         System.out.println(JSON.toJSONString(matrix[1]));
         System.out.println(JSON.toJSONString(matrix[2]));

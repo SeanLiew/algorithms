@@ -31,25 +31,33 @@ public class SetZeroes {
     }
 
     public void setZeroes2(int[][] matrix) {
-        int m = matrix.length, n = matrix[0].length;
-        boolean flagCol0 = false, flagRow0 = false;
+        //行数
+        int m = matrix.length;
+        //列数
+        int n = matrix[0].length;
+        boolean firstRow0 = false;
+        for (int i = 0; i < n; i++) {
+            if (matrix[0][i] == 0) {
+                firstRow0 = true;
+            }
+        }
+        boolean firstColumn0 = false;
         for (int i = 0; i < m; i++) {
             if (matrix[i][0] == 0) {
-                flagCol0 = true;
+                firstColumn0 = true;
             }
         }
-        for (int j = 0; j < n; j++) {
-            if (matrix[0][j] == 0) {
-                flagRow0 = true;
-            }
-        }
-        for (int i = 1; i < m; i++) {
-            for (int j = 1; j < n; j++) {
+        //遍历矩阵，用第一行第一列记录0
+        for (int i = 0; i < m; i++) {
+            for (int j = 0; j < n; j++) {
                 if (matrix[i][j] == 0) {
-                    matrix[i][0] = matrix[0][j] = 0;
+                    matrix[i][0] = 0;
+                    matrix[0][j] = 0;
                 }
             }
         }
+
+        //遍历矩阵，根据第一行第一列记录是否为0，设置0
         for (int i = 1; i < m; i++) {
             for (int j = 1; j < n; j++) {
                 if (matrix[i][0] == 0 || matrix[0][j] == 0) {
@@ -57,27 +65,32 @@ public class SetZeroes {
                 }
             }
         }
-        if (flagCol0) {
-            for (int i = 0; i < m; i++) {
-                matrix[i][0] = 0;
+
+        //判断第一行本身是否有0，有的话，把这一行设置为0
+        if (firstRow0) {
+            for (int i = 0; i < n; i++) {
+                matrix[0][i] = 0;
             }
         }
-        if (flagRow0) {
-            for (int j = 0; j < n; j++) {
-                matrix[0][j] = 0;
+        //判断第一列本身是否有0，有的话，把这一列设置为0
+        if (firstColumn0) {
+            for (int i = 0; i < m; i++) {
+                matrix[i][0] = 0;
             }
         }
     }
 
     @Test
     public void test2() {
-        int[][] matrix = new int[3][3];
+        int[][] matrix = new int[3][4];
         matrix[0][0] = 1;
         matrix[0][1] = 2;
         matrix[0][2] = 3;
+        matrix[0][3] = 13;
         matrix[1][0] = 5;
         matrix[1][1] = 0;
         matrix[1][2] = 7;
+        matrix[1][3] = 7;
         matrix[2][0] = 9;
         matrix[2][1] = 10;
         matrix[2][2] = 11;
@@ -86,7 +99,7 @@ public class SetZeroes {
         System.out.println(JSON.toJSONString(matrix[1]));
         System.out.println(JSON.toJSONString(matrix[2]));
         System.out.println("-----------");
-        setZeroes(matrix);
+        setZeroes2(matrix);
         System.out.println(JSON.toJSONString(matrix[0]));
         System.out.println(JSON.toJSONString(matrix[1]));
         System.out.println(JSON.toJSONString(matrix[2]));
