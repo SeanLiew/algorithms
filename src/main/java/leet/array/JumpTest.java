@@ -78,10 +78,41 @@ public class JumpTest {
 
     @Test
     public void test3(){
-        System.out.println(jump3(new int[]{2,3,1,1,4}));
-        System.out.println(jump3(new int[]{2,3,1}));
-        System.out.println(jump3(new int[]{3,2,1}));
-        System.out.println(jump3(new int[]{2,3,1,1,2,1,3}));
-        System.out.println(jump3(new int[]{1,2,3}));
+        System.out.println(jump3(new int[]{2,3,5,1,2,1,3}));
+    }
+
+    @Test
+    public void test4(){
+        System.out.println(canJump4(new int[]{2,0,0}));
+        System.out.println(canJump4(new int[]{3,2,1,0,4}));
+        System.out.println(canJump4(new int[]{1,2,3}));
+    }
+
+    public boolean canJump4(int[] nums) {
+        int k = 0;
+        for (int i = 0; i <= k && k < nums.length - 1; i++) {
+            k = Math.max(k, nums[i] + i);
+        }
+        return k >= nums.length - 1;
+    }
+
+    public int jump5(int[] nums) {
+        int ans = 0;
+        int maxPos = 0;
+        int end = 0;
+        for (int i = 0; i < nums.length - 1; i++) {
+            maxPos = Math.max(maxPos, nums[i] + i);
+            if (i == end) {
+                end = maxPos;
+                ans++;
+            }
+
+        }
+        return ans;
+    }
+
+    @Test
+    public void test5(){
+        System.out.println(jump5(new int[]{2,3,1,1,4}));
     }
 }

@@ -53,4 +53,46 @@ public class MaxProfit {
         return max;
     }
 
+
+    public int maxProfit3(int[] prices) {
+        if (prices.length < 1) {
+            return 0;
+        }
+        int profit = 0, cost = Integer.MAX_VALUE;
+        for (int i = 0; i < prices.length; i++) {
+            cost = Math.min(cost, prices[i]);
+            profit = Math.max(profit, prices[i] - cost);
+        }
+        return profit;
+    }
+
+    @Test
+    public void test3(){
+        int[] arr = {7,1,5,3,6,4};
+        int i = maxProfit3(arr);
+
+        System.out.println(i);
+    }
+
+    public int maxProfit4(int[] prices) {
+        if (prices.length <= 1) {
+            return 0;
+        }
+        int profit = 0;
+        for (int i = 1; i < prices.length; i++) {
+            int diff = prices[i] - prices[i - 1];
+            if (diff > 0) {
+                profit += diff;
+            }
+        }
+        return profit;
+    }
+
+    @Test
+    public void maxProfit4(){
+        int[] arr = {7,1,5,3,6,4};
+        int i = maxProfit4(arr);
+
+        System.out.println(i);
+    }
 }
