@@ -26,6 +26,8 @@ public class ArrayRemoveTest {
     }
 
 
+
+
     @Test
     public void testRemoveDuplicates2(){
         int[] arr = {1,1,2,2,2,3,4,4};
@@ -91,5 +93,26 @@ public class ArrayRemoveTest {
 
     }
 
+    @Test
+    public void test3(){
+        int[] arr = {1,1,2,2,2,4,5,5,7,7,7,8};
+        int i = removeDuplicates2(arr);
+        System.out.println(JSON.toJSON(arr));
+
+        System.out.println(i);
+    }
+
+    public int removeDuplicates2(int[] nums) {
+        if (nums.length <= 2) {
+            return nums.length;
+        }
+        int result = 1;
+        for (int i = 2; i < nums.length; i++) {
+            if (nums[i] != nums[result] || nums[i] != nums[result - 1]) {
+                nums[++result] = nums[i];
+            }
+        }
+        return result + 1;
+    }
 
 }
