@@ -12,16 +12,15 @@ import java.util.Set;
  */
 public class LengthOfLongestSubstring {
     public int lengthOfLongestSubstring(String s) {
-        char[] chars = s.toCharArray();
         int max = 0;
         Set<Character> set = new HashSet<>();
-        for (int left = 0, right = 0; right < s.length(); right++ ) {
-            char c = chars[right];
+        for (int left = 0, right = 0; right < s.length(); right++) {
+            char c = s.charAt(right);
             while (set.contains(c)) {
-                set.remove(chars[left]);
+                set.remove(s.charAt(left));
                 left++;
             }
-            set.add(chars[right]);
+            set.add(c);
             max = Math.max(max, right - left + 1);
         }
         return max;
@@ -29,6 +28,7 @@ public class LengthOfLongestSubstring {
 
     @Test
     public void test(){
+        System.out.println(lengthOfLongestSubstring("abcabcbb"));
         System.out.println(lengthOfLongestSubstring("pwwkew"));
         System.out.println(lengthOfLongestSubstring("dvdf"));
         System.out.println(lengthOfLongestSubstring("a"));
@@ -36,7 +36,7 @@ public class LengthOfLongestSubstring {
         System.out.println(lengthOfLongestSubstring("aab"));
         System.out.println(lengthOfLongestSubstring("abbcf"));
         System.out.println(lengthOfLongestSubstring("abccfhhjkl"));
-        System.out.println(lengthOfLongestSubstring("abcabcbb"));
+
     }
     @Test
     public void test2(){
