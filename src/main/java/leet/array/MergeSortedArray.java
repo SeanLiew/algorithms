@@ -59,4 +59,30 @@ public class MergeSortedArray {
         // add missing elements from nums2
         System.arraycopy(nums2, 0, nums1, 0, p2 + 1);
     }
+
+    public void merge3(int[] nums1, int m, int[] nums2, int n) {
+        int p = m + n - 1;
+        int a = m - 1;
+        int b = n - 1;
+        while (a >= 0 || b >= 0) {
+            if (a >= 0 && (b < 0 || nums1[a] >= nums2[b])) {
+                nums1[p--] = nums1[a--];
+            }
+            if (b >= 0 && (a < 0 || nums1[a] < nums2[b] )) {
+                nums1[p--] = nums2[b--];
+            }
+        }
+    }
+    @Test
+    public void test3(){
+//        int[] arr1 = {1, 2, 3, 0, 0, 0};
+//        int[] arr2 = {1 ,4, 6};
+//        int[] arr1 = {0,0,0};
+//        int[] arr2 = {1,2,3};
+        int[] arr1 = {2,0};
+        int[] arr2 = {1};
+        merge3(arr1, 1, arr2, 1);
+
+        System.out.println(JSON.toJSONString(arr1));
+    }
 }
