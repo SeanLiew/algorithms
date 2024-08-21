@@ -1,6 +1,7 @@
 package leet.link;
 
 import com.alibaba.fastjson.JSON;
+import org.junit.Test;
 
 public class ReverseLink {
     public static void main(String[] args) {
@@ -126,6 +127,38 @@ public class ReverseLink {
 
 
 
+    }
+
+    public ListNode reverseList(ListNode head) {
+        ListNode current = head;
+        ListNode pre = null;
+        while (current != null) {
+            ListNode next = current.next;
+            current.next = pre;
+            pre = current;
+            current = next;
+        }
+        return pre;
+    }
+
+    @Test
+    public void test() {
+        ListNode first = new ListNode(1);
+        ListNode second = new ListNode(2);
+        first.next = second;
+        ListNode third = new ListNode(3);
+        second.next = third;
+        ListNode forth = new ListNode(4);
+        third.next = forth;
+        ListNode fifth = new ListNode(5);
+        forth.next = fifth;
+
+        ListNode listNode = reverseList(first);
+
+        while(listNode != null){
+            System.out.print(listNode.val + "->");
+            listNode = listNode.next;
+        }
     }
 
 }
