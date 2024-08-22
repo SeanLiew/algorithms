@@ -1,4 +1,4 @@
-package leet.nums;
+package leet.merge;
 
 import com.alibaba.fastjson.JSON;
 import org.junit.Test;

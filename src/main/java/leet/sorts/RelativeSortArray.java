@@ -1,4 +1,4 @@
-package leet.array;
+package leet.sorts;
 
 import com.alibaba.fastjson.JSON;
 import org.junit.Test;

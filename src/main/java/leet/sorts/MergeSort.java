@@ -1,6 +1,8 @@
 package leet.sorts;
 
+import com.alibaba.fastjson.JSON;
 import leet.utils.GsonUtils;
+import org.junit.Test;
 
 import java.util.Arrays;
 
@@ -51,5 +53,43 @@ public class MergeSort {
 
         return result;
 
+    }
+
+
+    @Test
+    public void test(){
+        int[] arr2 = {5,1,1,2,0,0};
+        int[] sort = sort(arr2, 0, arr2.length - 1);
+
+        System.out.println(JSON.toJSONString(sort));
+    }
+
+    public int[] sort(int[] arr,int left, int right){
+        if (right == left) {
+            return new int[]{arr[left]};
+        }
+        int mid = left + (right - left) / 2;
+        int[] sort1 = sort(arr, left, mid);
+        int[] sort2 = sort(arr, mid + 1, right);
+        return merge(sort1, sort2);
+    }
+
+    //1，1，5，0，0，2
+
+    public int[] merge(int[] arr1, int[] arr2) {
+        int [] newArr = new int[arr1.length + arr2.length];
+        int p = 0;
+
+        int p1 = 0;
+        int p2 = 0;
+        while (p1 < arr1.length || p2 < arr2.length) {
+            if (p1 < arr1.length && (p2 >= arr2.length || arr1[p1] <= arr2[p2])) {
+                newArr[p++] = arr1[p1++];
+            }
+            if (p2 < arr2.length && (p1 >= arr1.length || arr1[p1] > arr2[p2])) {
+                newArr[p++] = arr2[p2++];
+            }
+        }
+        return newArr;
     }
 }
