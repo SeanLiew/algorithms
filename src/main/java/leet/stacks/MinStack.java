@@ -92,24 +92,25 @@ public class MinStack {
         return stack.isEmpty();
     }
     public boolean isValid2(String s) {
-        if (s == null || s.length() == 1) {
+        if (s == null || s.length() == 0) {
             return false;
         }
-
-//        '('，')'，'{'，'}'，'['，']'
-        Map<Character, Character> map = new HashMap<>();
-        map.put(')', '(');
-        map.put('}','{');
-        map.put(']','[');
         Stack<Character> stack = new Stack<>();
-        stack.push(s.charAt(0));
-        for (int i = 1; i < s.length(); i++) {
-            Character sym = map.get(s.charAt(i));
-            if (!stack.isEmpty() && stack.peek().equals(sym)) {
-                stack.pop();
+        Map<Character, Character> map = new HashMap<>();
+        map.put('(', ')');
+        map.put('{', '}');
+        map.put('[', ']');
+        for (char c : s.toCharArray()) {
+            if (stack.isEmpty()) {
+                stack.push(c);
                 continue;
             }
-            stack.push(s.charAt(i));
+            Character peek = stack.peek();
+            if (map.containsKey(peek) && map.get(peek) == c) {
+                stack.pop();
+            } else {
+                stack.push(c);
+            }
         }
         return stack.isEmpty();
     }
