@@ -140,6 +140,16 @@ public class ReverseLink {
         }
         return pre;
     }
+    public ListNode reverseList2(ListNode head) {
+        ListNode pre = null;
+        while (head != null) {
+            ListNode next = head.next;
+            head.next = pre;
+            pre = head;
+            head = next;
+        }
+        return pre;
+    }
 
     @Test
     public void test() {
@@ -153,7 +163,7 @@ public class ReverseLink {
         ListNode fifth = new ListNode(5);
         forth.next = fifth;
 
-        ListNode listNode = reverseList(first);
+        ListNode listNode = reverseList2(first);
 
         while(listNode != null){
             System.out.print(listNode.val + "->");
