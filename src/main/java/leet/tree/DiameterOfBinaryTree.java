@@ -16,8 +16,8 @@ public class DiameterOfBinaryTree {
         }
         int left = depth(root.left);
         int right = depth(root.right);
-        record = 1 + Math.max(left, right);
-        return Math.max(left, right);
+        record = Math.max(left + right, record);
+        return Math.max(left, right ) + 1;
     }
     @Test
     public void test(){
