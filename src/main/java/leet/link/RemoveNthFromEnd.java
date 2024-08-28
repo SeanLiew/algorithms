@@ -2,8 +2,11 @@ package leet.link;
 
 import org.junit.Test;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class RemoveNthFromEnd {
-    public ListNode removeNthFromEnd(ListNode head, int n) {
+    public ListNode removeNthFromEnd2(ListNode head, int n) {
         if (head == null) {
             return head;
         }
@@ -29,6 +32,32 @@ public class RemoveNthFromEnd {
         pre.next = current.next;
         return dummy.next;
     }
+
+    public ListNode removeNthFromEnd(ListNode head, int n) {
+        Map<Integer, ListNode> map = new HashMap<>();
+
+        ListNode dummyHead = new ListNode();
+        dummyHead.next = head;
+        ListNode cur = dummyHead;
+        int index = 0;
+        while (cur != null) {
+            map.put(index++, cur);
+            cur = cur.next;
+        }
+
+        ListNode pre = map.get(index - n - 1);
+        if (pre != null) {
+            ListNode next = pre.next;
+            if (next != null) {
+                pre.next = next.next;
+            } else {
+                pre.next = null;
+            }
+        }
+
+        return dummyHead.next;
+    }
+
 
     @Test
     public void test() {
