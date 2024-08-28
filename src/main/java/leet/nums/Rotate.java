@@ -75,4 +75,20 @@ public class Rotate {
         reverse(nums, 0, k - 1);
         reverse(nums, k, nums.length - 1);
     }
+
+    @Test
+    public void test4(){
+        int[] nums = {1,2,3,4,5,6};
+        //6,5,4,3,2,1
+        System.out.println(GsonUtils.toJson(nums));
+        rotate4(nums, 3);
+        System.out.println(GsonUtils.toJson(nums));
+    }
+
+    public void rotate4(int[] nums, int k) {
+        k = k % nums.length;
+        reverse(nums, 0, nums.length- 1);
+        reverse(nums, 0, k - 1);
+        reverse(nums, k, nums.length- 1);
+    }
 }
