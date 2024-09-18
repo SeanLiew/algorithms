@@ -1,5 +1,6 @@
 package leet.link;
 
+import leet.tree.TreeNode;
 import org.junit.Test;
 
 import java.util.ArrayList;
@@ -63,6 +64,34 @@ public class Connect {
         }
         return root;
     }
+    public Node connect2(Node root) {
+        if (root == null) {
+            return root;
+        }
+        Queue<Node> queue = new LinkedList<>();
+        queue.add(root);
+
+        while (!queue.isEmpty()) {
+            List<Node> list = new ArrayList<>();
+            int n = queue.size();
+            Node last = null;
+            for (int i = 0; i < n; i++) {
+                Node poll = queue.poll();
+                if (poll.left != null) {
+                    list.add(poll.left);
+                }
+                if (poll.right != null) {
+                    list.add(poll.right);
+                }
+                if (i != 0) {
+                    last.next = poll;
+                }
+                last = poll;
+            }
+            queue.addAll(list);
+        }
+        return root;
+    }
 
 
     @Test
@@ -80,7 +109,7 @@ public class Connect {
         node3.left = node6;
 
 
-        Node node = connect(node1);
+        Node node = connect2(node1);
 
         while(node != null){
             System.out.print(node.val + "->");
