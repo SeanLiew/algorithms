@@ -10,13 +10,17 @@ import org.junit.Test;
 public class ReverseBits {
     @Test
     public void test(){
-        int result = reverseBits(3);
+        System.out.println(reverseBits(3));
 
     }
 
     public int reverseBits(int n) {
-
-        return 0;
+        int res = 0;
+        for (int i = 31; i >= 0 & n !=0; i--) {
+            res += (n & 1) << i;
+            n = n >>> 1;
+        }
+        return res;
     }
 
 }

@@ -6,8 +6,10 @@ import org.junit.Test;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
+import java.util.Queue;
 import java.util.Set;
 
 /**
@@ -56,14 +58,50 @@ public class CanFinish {
         return true;
     }
 
+    public boolean canFinish2(int numCourses, int[][] prerequisites) {
+        int[] indeg = new int[numCourses];
+        ArrayList<Integer>[] arr = new ArrayList[numCourses];
+        for (int i = 0; i < numCourses; i++) {
+            arr[i] = new ArrayList<>();
+        }
+        for (int[] prerequisite : prerequisites) {
+            int course = prerequisite[0];
+            int prereq = prerequisite[1];
+            arr[prereq].add(course);
+            indeg[course]++;
+        }
+        Queue<Integer> queue = new LinkedList<>();
+        for (int i = 0; i < numCourses; i++) {
+            if (indeg[i] == 0) {
+                queue.offer(i);
+            }
+        }
+        int visited = 0;
+        while (!queue.isEmpty()) {
+            visited++;
+            Integer poll = queue.poll();
+            ArrayList<Integer> arrayList = arr[poll];
+            for (int i : arrayList) {
+                --indeg[i];
+                if (indeg[i] == 0) {
+                    queue.offer(i);
+                }
+            }
+        }
+        return visited == numCourses;
+    }
+
     @Test
     public void test() {
-        int[][] matrix = new int[2][2];
+        //0 -> 1 -> 3
+        //2 -> 1 -> 4
+
+        int[][] matrix = new int[1][2];
         matrix[0][0] = 0;
         matrix[0][1] = 1;
-        matrix[1][0] = 1;
-        matrix[1][1] = 2;
-        System.out.println(canFinish(3, matrix));
+//        matrix[1][0] = 2;
+//        matrix[1][1] = 1;
+        System.out.println(canFinish2(2, matrix));
 
     }
 }
