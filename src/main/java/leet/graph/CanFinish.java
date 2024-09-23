@@ -19,43 +19,42 @@ import java.util.Set;
  */
 public class CanFinish {
 
-    int[] visiting;
+    int[] visited;
     ArrayList<Integer>[] arr;
+    boolean valid = true;
 
     public boolean canFinish(int numCourses, int[][] prerequisites) {
-        visiting = new int[numCourses];
+        visited = new int[numCourses];
         arr = new ArrayList[numCourses];
+        for (int i = 0; i < numCourses; i++) {
+            arr[i] = new ArrayList<>();
+        }
         for (int[] prerequisite : prerequisites) {
             int course = prerequisite[0];
             int prereq = prerequisite[1];
-            if (arr[course] == null) {
-                arr[course] = new ArrayList();
-            }
-            arr[course].add(prereq);
+            arr[prereq].add(course);
         }
-        for (int course = 0; course < numCourses; course++) {
-            if (dfs(course) == false) {
-                return false;
+        for (int i = 0; i < numCourses && valid; i++) {
+            if (visited[i] ==0) {
+                dfs(i);
             }
         }
-        return true;
+        return valid;
     }
-    public boolean dfs (int course) {
-        if (visiting[course] == 1) {
-            return false;
-        }
-        if (arr[course] == null) {
-            return true;
-        }
-        visiting[course] = 1;
-        for (int prereq : arr[course]) {
-            if (dfs(prereq) == false) {
-                return false;
+    public void dfs (int course) {
+        visited[course] = 1;
+        for (int nextCourse : arr[course]) {
+            if (visited[nextCourse] == 0) {
+                dfs(nextCourse);
+                if (!valid) {
+                    return;
+                }
+            } else if (visited[nextCourse] == 1){
+                valid = false;
+                return;
             }
         }
-        visiting[course] = 0;
-        arr[course] = null;
-        return true;
+        visited[course] = 2;
     }
 
     public boolean canFinish2(int numCourses, int[][] prerequisites) {
@@ -101,7 +100,7 @@ public class CanFinish {
         matrix[0][1] = 1;
 //        matrix[1][0] = 2;
 //        matrix[1][1] = 1;
-        System.out.println(canFinish2(2, matrix));
+        System.out.println(canFinish(2, matrix));
 
     }
 }
