@@ -28,7 +28,7 @@ public class Combine {
     @Test
     public void test() {
 
-        System.out.println(JSON.toJSONString(combine(4, 4)));
+        System.out.println(JSON.toJSONString(combine(4, 2)));
     }
 
 }
