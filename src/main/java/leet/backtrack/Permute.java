@@ -89,4 +89,16 @@ public class Permute {
 
         System.out.println(JSON.toJSONString(permute2(arr)));
     }
+    @Test
+    public void test2() {
+        int[] arr = {1,2,3};
+
+        System.out.println(JSON.toJSONString(permute2(arr)));
+    }
+    @Test
+    public void test3() {
+        int[] arr = {1,2,3};
+
+        System.out.println(JSON.toJSONString(permute3(arr)));
+    }
 }
