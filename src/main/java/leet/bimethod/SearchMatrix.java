@@ -1,4 +1,4 @@
-package leet.array;
+package leet.bimethod;
 
 import org.junit.Test;
 
